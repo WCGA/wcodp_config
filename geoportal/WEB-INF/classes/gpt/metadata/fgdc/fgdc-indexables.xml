@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ Esri Inc. licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<!-- fgdc-indexables.xml -->
+<indexables>
+ 
+  <property meaning="title" xpath="/metadata/idinfo/citation/citeinfo/title"/>
+  <property meaning="abstract" xpath="/metadata/idinfo/descript/abstract"/>
+    
+  <property meaning="keywords"
+    xpath="/metadata/idinfo/keywords/theme/themekey | /metadata/idinfo/keywords/place/placekey"/>
+    
+  <property meaning="envelope" xpath="/metadata/idinfo/spdom/bounding">
+    <property meaning="envelope.west" xpath="westbc"/>
+    <property meaning="envelope.south" xpath="southbc"/>
+    <property meaning="envelope.east" xpath="eastbc"/>
+    <property meaning="envelope.north" xpath="northbc"/>
+  </property>   
+    
+  <property meaning="resource.check.urls" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink"/>
+  <property meaning="resource.check.urls" xpathType="NODESET"
+     xpath="/metadata/Esri/primaryOnlink"/>
+  <property meaning="resource.check.urls" xpathType="NODESET"
+     xpath="/metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr"/>
+  <property meaning="networkr_ftp" xpathType="NODESET"
+     xpath="/metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(.,'ftp')]"/>
+  <property meaning="networkr_zip" xpathType="NODESET"
+     xpath="/metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(.,'.zip')]"/>
+	 
+  <property meaning="onlink_wms" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'wmsconnector')]"/>
+  <property meaning="onlink_ftp" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'ftp')]"/>
+  <property meaning="onlink_img" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.image')]"/>     
+  <property meaning="onlink_pdf" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.pdf')]"/>
+	 
+  <property meaning="onlink_pdf" xpathType="NODESET"
+     xpath="/metadata/eainfo/overview/eadetcit[contains(.,'.pdf')]"/>
+
+	 
+  <property meaning="onlink_kml" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.kml')]"/>
+  <property meaning="onlink_zip" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.zip')]"/>
+  <property meaning="onlink_tar" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.tar.gz')]"/>
+  <property meaning="esri_wms" xpathType="NODESET"
+     xpath="/metadata/Esri/Server[contains(.,'wmsconnector')]"/>
+  <property meaning="onlink_csv" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.csv')]"/>
+  <property meaning="onlink_xls" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.xls')]"/>
+
+  <property meaning="onlink_html" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.htm')]"/>     
+	 
+  <property meaning="onlink_asp" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.asp')]"/>   
+	 
+  <property meaning="onlink_kmz" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.kmz')]"/>
+  <property meaning="onlink_shp" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.shp')]"/>    
+  <property meaning="onlink_tiff" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.tiff')]"/>
+  <property meaning="onlink_txt" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.txt')]"/>
+  <property meaning="onlink_esri_rest" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'MapServer')]"/>
+
+  <property meaning="thumbnail.url" xpath="/metadata/idinfo/browse/browsen"/>
+    
+  <property meaning="contentType" xpath="/metadata/distinfo/resdesc"/>
+  <property meaning="dataTheme" xpath="/metadata/idinfo/keywords/theme/themekey"/>
+
+  <property meaning="publisher" xpathType="NODESET"
+    xpath="/metadata/metainfo/metc/cntinfo/cntperp/cntorg | /metadata/metainfo/metc/cntinfo/cntorgp/cntorg"/>
+
+  <!-- time period of the content -->
+  <property xpath="/metadata/idinfo/timeperd/timeinfo/rngdates">
+    <property meaning="timeperiod.analyze" xpathType="STRING"
+      xpath="concat('tp.begin.',begdate,'.fgdctime.',begtime,'.end.',enddate,'.fgdctime.',endtime)"/>
+  </property>
+  <property xpath="/metadata/idinfo/timeperd/timeinfo/mdattim/sngdate">
+    <property meaning="timeperiod.analyze" xpathType="STRING"
+      xpath="concat('tp.position.',caldate,'.fgdctime.',time)"/>
+  </property>
+  <property xpath="/metadata/idinfo/timeperd/timeinfo/sngdate">
+    <property meaning="timeperiod.analyze" xpathType="STRING"
+      xpath="concat('tp.position.',caldate,'.fgdctime.',time)"/>
+  </property>
+  
+  <property meaning="body" xpathType="STRING" xpath="/*"/>
+  
+  <property meaning="dcat.accessLevel"    xpath="/metadata/idinfo/accconst"/>
+  <property meaning="dcat.mbox"           xpath="/metadata/idinfo/ptcontac/cntinfo/cntemail"/>
+  <property meaning="dcat.person"         xpath="/metadata/idinfo/ptcontac/cntinfo/cntorgp/cntper" />
+  <property meaning="dcat.license"        xpath="/metadata/distinfo/distliab" />
+  <property meaning="dcat.dataDictionary" xpath="/metadata/idinfo/keywords/theme/themekt" />
+  
+</indexables>
+

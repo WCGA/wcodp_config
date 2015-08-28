@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ See the NOTICE file distributed with
+ this work for additional information regarding copyright ownership.
+ Esri Inc. licenses this file to You under the Apache License, Version 2.0
+ (the "License"); you may not use this file except in compliance with
+ the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<property-meanings>
+
+  <property-meaning name="uuid" meaningType="uuid" valueType="String" comparisonType="value"> 
+    <dc name="dc:identifier" aliases="uuid,identifier,id,docID" 
+        scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:DocID"/>
+  </property-meaning>
+  
+  <property-meaning name="fileIdentifier" meaningType="fileIdentifier" valueType="String" comparisonType="value"> 
+    <dc name="~dc:identifier" aliases="fileIdentifier,fid,fileID" 
+        scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:FileID"/>
+  </property-meaning>
+  
+  <property-meaning name="sys.siteuuid" valueType="String" comparisonType="value"> 
+    <dc name="dc:source" aliases="source"/>
+  </property-meaning>
+  
+  <property-meaning name="dateModified" meaningType="dateModified" valueType="Timestamp" comparisonType="value">
+    <dc name="dct:modified" aliases="modified"/>
+  </property-meaning> 
+  
+  <property-meaning name="geometry" meaningType="geometry" valueType="geometry" comparisonType="value"> 
+    <dc name="ows:BoundingBox" aliases="geometry,envelope,/ows:BoundingBox"/> 
+  </property-meaning>
+  
+  <property-meaning name="keywords" valueType="String" comparisonType="keyword">
+  </property-meaning> 
+  
+  <property-meaning name="body" valueType="String" comparisonType="terms">
+  </property-meaning> 
+ 
+  <property-meaning name="anytext" meaningType="anytext" valueType="String" comparisonType="terms" allowLeadingWildcard="true">
+    <consider>title,abstract,keywords,body,contentType,dataTheme,title.org</consider>
+    <dc name="AnyText" aliases="csw:AnyText,any,csw:Any"/>
+  </property-meaning> 
+  
+  <property-meaning name="title" valueType="String" comparisonType="terms"> 
+    <dc name="dc:title" aliases="title"/>
+  </property-meaning>
+
+  <property-meaning name="title.org" valueType="String" comparisonType="terms">
+  </property-meaning>
+  
+  <property-meaning name="abstract" valueType="String" comparisonType="terms"> 
+    <dc name="dct:abstract" aliases="abstract"/>
+  </property-meaning>  
+  
+  <property-meaning name="contentType" valueType="String" comparisonType="keyword">
+    <dc name="dc:type" aliases="type,format,dc:format" 
+        scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:ContentType"/>
+  </property-meaning> 
+   
+  <property-meaning name="dataTheme" valueType="String" comparisonType="keyword">
+    <dc name="dc:subject" aliases="subject"/>
+  </property-meaning>
+  
+  <property-meaning name="resource.url" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:Server"/>
+  </property-meaning>
+ 
+ <!-- ISO property meanings -->
+ 
+  <property-meaning name="csv" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.csv"/>
+  </property-meaning>
+  
+  <property-meaning name="esri.rest" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcGIS:MapServer"/>
+  </property-meaning>
+ 
+  <property-meaning name="ftp" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.ftp"/>
+  </property-meaning>
+ 
+  <property-meaning name="html" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.html"/>
+  </property-meaning>
+  
+  <property-meaning name="asp" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.asp"/>
+  </property-meaning>
+ 
+  <property-meaning name="img" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.img"/>
+  </property-meaning>
+ 
+  <property-meaning name="kml" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.kml"/>
+  </property-meaning>
+ 
+  <property-meaning name="kmz" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.kmz"/>
+  </property-meaning>
+ 
+  <property-meaning name="pdf" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.pdf"/>
+  </property-meaning>
+ 
+  <property-meaning name="shp" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.shp"/>
+  </property-meaning>
+ 
+  <property-meaning name="tar" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.tar"/>
+  </property-meaning>
+ 
+  <property-meaning name="tiff" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.tiff"/>
+  </property-meaning>
+ 
+  <property-meaning name="txt" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.txt"/>
+  </property-meaning>
+ 
+  <property-meaning name="xls" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.xls"/>
+  </property-meaning>
+ 
+  <property-meaning name="xlsx" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.xlsx"/>
+  </property-meaning>
+
+  <property-meaning name="wcs" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wcs"/>
+  </property-meaning>
+
+  <property-meaning name="wfs" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wfs"/>
+  </property-meaning>
+
+  <property-meaning name="wms" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wms"/>
+  </property-meaning>
+
+  <property-meaning name="zip" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.zip"/>
+  </property-meaning>
+  
+  <!-- START Added ISO meanings -->
+  
+  <property-meaning name="esri_rest" valueType="String" comparisonType="value">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.esri_rest"/>
+  </property-meaning>  
+  
+    
+  <property-meaning name="opendap_thredds" valueType="String" comparisonType="value">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.opendap_thredds"/>
+  </property-meaning>  
+
+  <!-- END Added ISO meanings -->
+   
+  <property-meaning name="resource.check.urls" valueType="String" comparisonType="terms">
+  </property-meaning>  
+ 
+
+ 
+ <!-- START Added ISO-2 meanings -->
+ 
+   <property-meaning name="csv-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.csv-2"/>
+  </property-meaning>
+  
+  <property-meaning name="esri.rest-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcGIS:MapServer-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="ftp-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.ftp-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="html-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.html-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="img-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.img-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="kml-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.kml-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="kmz-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.kmz-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="pdf-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.pdf-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="shp-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.shp-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="tar-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.tar-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="tiff-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.tiff-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="txt-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.txt-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="xls-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.xls-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="xlsx-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.xlsx-2"/>
+  </property-meaning>
+
+  <property-meaning name="wcs-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wcs-2"/>
+  </property-meaning>
+
+  <property-meaning name="wfs-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wfs-2"/>
+  </property-meaning>
+
+  <property-meaning name="wms-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wms-2"/>
+  </property-meaning>
+
+  <property-meaning name="zip-2" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.zip-2"/>
+  </property-meaning>
+ 
+  <property-meaning name="esri_rest-2" valueType="String" comparisonType="value">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.esri_rest-2"/>
+  </property-meaning>  
+  
+    
+  <property-meaning name="opendap_thredds-2" valueType="String" comparisonType="value">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.opendap_thredds-2"/>
+  </property-meaning>  
+ 
+ <!-- END Added ISO meanings -->
+
+  
+
+  
+  <!-- FGDC property meanings -->
+  
+  <property-meaning name="networkr_ftp" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Networkr_ftp"/>
+  </property-meaning>
+  
+  <property-meaning name="networkr_zip" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:networkr_zip"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_wms" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_wms"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_ftp" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_ftp"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_html" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_html"/>
+  </property-meaning>
+  
+ <property-meaning name="onlink_asp" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_asp"/>
+  </property-meaning>
+      
+  <property-meaning name="onlink_img" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_img"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_kmz" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_kmz"/>
+  </property-meaning>
+    
+  <property-meaning name="onlink_pdf" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_pdf"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_shp" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_shp"/>
+  </property-meaning>
+    
+  <property-meaning name="onlink_kml" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_kml"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_zip" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_zip"/>
+  </property-meaning>
+
+  <property-meaning name="onlink_tar" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_tar"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_tiff" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_tiff"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_txt" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_txt"/>
+  </property-meaning>
+      
+  <property-meaning name="esri_wms" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:esri_wms"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_esri_rest" valueType="String" comparisonType="terms">
+  	<dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_esri_rest"/>
+  </property-meaning>  
+  
+  <property-meaning name="thumbnail.url" meaningType="thumbnailurl" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:Thumbnail"/>
+  </property-meaning>
+  
+  <property-meaning name="website.url" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:Onlink"/>
+  </property-meaning>
+  
+  <property-meaning name="xml.url" meaningType="xmlurl" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:Document"/>
+  </property-meaning>
+  
+  <!-- date is fairly random, it has no explicit meaning, simply associated with some date found
+  within a metadata document -->
+  <property-meaning name="date" valueType="Timestamp" comparisonType="value">
+    <dc name="dc:date" aliases="date"/>
+  </property-meaning>
+  
+  <property-meaning name="relation" valueType="String" comparisonType="keyword">
+    <dc name="dc:relation" aliases="relation"/>
+  </property-meaning> 
+  
+  <property-meaning name="publisher" valueType="String" comparisonType="terms">
+    <dc name="dc:publisher" />
+  </property-meaning>
+  
+  <property-meaning name="contributor" valueType="String" comparisonType="keyword">
+    <dc name="dc:contributor" aliases="contributor,affiliation"/>
+  </property-meaning>
+  
+  <property-meaning name="isPartOf" valueType="String" comparisonType="keyword">
+    <dc name="dct:isPartOf" aliases=""/>
+  </property-meaning>
+  
+  <property-meaning name="dateValidStart" valueType="Timestamp" comparisonType="value">
+    <dc name="dct:valid" aliases="valid"/>
+  </property-meaning> 
+  
+  <property-meaning name="hasFormat" valueType="String" comparisonType="keyword">
+    <dc name="dct:hasFormat" aliases="hasFormat"/>
+  </property-meaning>
+  
+  <property-meaning name="accessRights" valueType="String" comparisonType="keyword">
+    <dc name="dct:accessRights" aliases="accessRights"/>
+  </property-meaning>
+
+  <!-- time period of the content (timeperiod.l.[n], timeperiod.u.[n] -->
+  <property-meaning name="timeperiod" valueType="timeperiod" comparisonType="value">
+    <gpt name="timeperiod"/>
+  </property-meaning>
+  <property-meaning name="timeperiod.analyze" valueType="String" comparisonType="value"/>
+  <!-- timeperiod.intersects to explicitly request an "intersects" operation from CSW, 
+       not stored as a separate index field -->
+  <property-meaning name="timeperiod.intersects" valueType="timeperiod" comparisonType="value">
+    <gpt name="timeperiod.intersects"/>
+  </property-meaning>
+  <!-- timeperiod.within to explicitly request an "within" operation from CSW, 
+       not stored as a separate index field -->
+  <property-meaning name="timeperiod.within" valueType="timeperiod" comparisonType="value">
+    <gpt name="timeperiod.within"/>
+  </property-meaning>
+  <property-meaning name="timeperiod.imeta" valueType="String" comparisonType="keyword">
+    <gpt name="timeperiod.imeta"/>
+  </property-meaning>
+  <property-meaning name="timeperiod.meta" valueType="String" comparisonType="keyword">
+    <gpt name="timeperiod.meta"/>
+  </property-meaning>
+  <property-meaning name="timeperiod.num" valueType="Long" comparisonType="value">
+    <gpt name="timeperiod.num"/>
+  </property-meaning>
+
+  <!-- ================================================================================= -->
+      
+  <!--  Dublin Core response property sets (brief, summary, full) -->
+  <propertySets>
+    <brief>
+      <dc>
+        <meaning-names>fileIdentifier,uuid,title,contentType,geometry</meaning-names>
+      </dc>
+    </brief>
+     <summary>
+      <dc>
+        <meaning-names>fileIdentifier,uuid,title</meaning-names>
+        <meaning-names>contentType,dataTheme</meaning-names>
+        <meaning-names>dateModified,abstract</meaning-names>
+        <meaning-names>resource.url,website.url</meaning-names>
+        <meaning-names>thumbnail.url,xml.url,csv</meaning-names>
+        <meaning-names>esri.rest,ftp,html,img,kml</meaning-names>
+        <meaning-names>kmz,pdf,shp,tar,tiff,txt</meaning-names>
+        <meaning-names>xls,xlsx,wcs,wfs,wms,zip,wcs-2,wfs-2,wms-2</meaning-names>
+        <meaning-names>networkr_ftp,networkr_zip</meaning-names>
+        <meaning-names>onlink_wms,onlink_ftp</meaning-names>
+        <meaning-names>onlink_html,onlink_img</meaning-names>
+        <meaning-names>onlink_kmz,onlink_pdf</meaning-names>
+        <meaning-names>onlink_shp,onlink_kml</meaning-names>
+        <meaning-names>onlink_zip,onlink_tar</meaning-names>
+        <meaning-names>onlink_tiff,onlink_txt</meaning-names>
+        <meaning-names>esri_wms</meaning-names>
+        <meaning-names>geometry,date,relation</meaning-names>
+      </dc>
+    </summary>
+    <full>
+      <dc>
+        <meaning-names>fileIdentifier,uuid,title</meaning-names>
+        <meaning-names>contentType,dataTheme</meaning-names>
+        <meaning-names>dateModified,abstract</meaning-names>
+        <meaning-names>resource.url,website.url</meaning-names>
+        <meaning-names>thumbnail.url,xml.url,csv</meaning-names>
+        <meaning-names>esri.rest,ftp,html,img,kml</meaning-names>
+        <meaning-names>kmz,pdf,shp,tar,tiff,txt</meaning-names>
+        <meaning-names>xls,xlsx,wcs,wfs,wms,zip,wcs-2,wfs-2,wms-2</meaning-names>
+        <meaning-names>networkr_ftp,networkr_zip</meaning-names>
+        <meaning-names>onlink_wms,onlink_ftp</meaning-names>
+        <meaning-names>onlink_html,onlink_img</meaning-names>
+        <meaning-names>onlink_kmz,onlink_pdf</meaning-names>
+        <meaning-names>onlink_shp,onlink_kml</meaning-names>
+        <meaning-names>onlink_zip,onlink_tar</meaning-names>
+        <meaning-names>onlink_tiff,onlink_txt</meaning-names>
+        <meaning-names>onlink_esri_rest,esri_rest,esri_wms</meaning-names>
+        <meaning-names>geometry,date,relation</meaning-names>
+        <meaning-names>sys.siteuuid,isPartOf</meaning-names>
+      </dc>
+    </full>    
+    
+  </propertySets>
+  
+  <!-- ================================================================================= -->
+  
+  <!--  APISO properties -->   
+  
+  <!-- Alias or Definition of Common Queryables -->  
+  <!-- page 41 - Table 6 of CSW ISO AP spec -->
+  
+  <property-alias meaning-name="dataTheme" value="apiso:Subject,Subject"/> 
+  <property-alias meaning-name="title" value="apiso:Title,Title"/>
+  <property-alias meaning-name="abstract" value="apiso:Abstract,Abstract"/>    
+  <property-alias meaning-name="anytext" value="apiso:AnyText,AnyText"/>
+  <property-alias meaning-name="thumbnail.url" value="apiso:BrowseGraphic"/>
+  <property-alias meaning-name="fileIdentifier" value="apiso:Identifier,Identifier"/>
+  <property-alias meaning-name="geometry" value="apiso:BoundingBox"/>
+  
+  <property-meaning name="apiso.Format" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:Format"/>
+  </property-meaning> 
+
+  <property-meaning name="apiso.Modified" valueType="Timestamp" comparisonType="value">
+    <apiso name="apiso:Modified"/>
+  </property-meaning>
+  
+  <property-meaning name="apiso.Type" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:Type"/>
+  </property-meaning>
+  
+  <!-- Table 8, page 43 -->
+  <property-meaning name="apisoCRS" valueType="String" comparisonType="terms">
+    <apiso name="apiso:CRS" aliases="CRS"/>
+   </property-meaning>  
+
+  <!-- end of CSW  common queryables -->
+  
+  <!-- Table 10 (page 46) - additional ISO common queryables -->
+  <property-meaning name="apiso.RevisionDate" valueType="Timestamp" comparisonType="value">
+    <apiso name="apiso:RevisionDate"/>
+  </property-meaning> 
+  <property-meaning name="apiso.AlternateTitle" valueType="String" comparisonType="terms">
+    <apiso name="apiso:AlternateTitle"/>
+  </property-meaning> 
+  <property-meaning name="apiso.CreationDate" valueType="Timestamp" comparisonType="value">
+    <apiso name="apiso:CreationDate"/>
+  </property-meaning> 
+  <property-meaning name="apiso.PublicationDate" valueType="Timestamp" comparisonType="value">
+    <apiso name="apiso:PublicationDate"/>
+  </property-meaning> 
+  <property-meaning name="apiso.OrganizationName" valueType="String" comparisonType="terms">
+    <apiso name="apiso:OrganizationName"/>
+  </property-meaning> 
+  <property-meaning name="apiso.HasSecurityConstraints" valueType="String" comparisonType="terms">
+    <apiso name="apiso:HasSecurityConstraints"/>
+  </property-meaning> 
+  <property-meaning name="apiso.Language" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:Language"/>
+  </property-meaning> 
+  <property-meaning name="apiso.ResourceIdentifier" valueType="String" comparisonType="value">
+    <apiso name="apiso:ResourceIdentifier"/>
+  </property-meaning> 
+  <property-meaning name="apiso.ParentIdentifier" valueType="String" comparisonType="value">
+    <apiso name="apiso:ParentIdentifier"/>
+  </property-meaning> 
+  <property-meaning name="apiso.KeywordType" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:KeywordType"/>
+  </property-meaning> 
+
+  <!-- table 11 (page 47) for datasets, series and applications  -->
+  <property-meaning name="apiso.TopicCategory" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:TopicCategory"/>
+  </property-meaning> 
+  <property-meaning name="apiso.ResourceLanguage" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:ResourceLanguage"/>
+  </property-meaning> 
+  <property-meaning name="apiso.GeographicDescriptionCode" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:GeographicDescriptionCode"/>
+  </property-meaning> 
+  
+  <!--  spatial resolution (table 12): denominator or  distanceValue+distanceUOM -->
+  <property-meaning name="apiso.Denominator" valueType="Long" comparisonType="value">
+    <apiso name="apiso:Denominator"/>
+  </property-meaning> 
+  <property-meaning name="apiso.DistanceValue" valueType="Double" comparisonType="value">
+    <apiso name="apiso:DistanceValue"/>
+  </property-meaning> 
+  <property-meaning name="apiso.DistanceUOM" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:DistanceUOM"/>
+  </property-meaning> 
+  
+  <!-- temporalExtent (table 13)-->
+  <property-meaning name="apiso.TempExtent_begin" valueType="Timestamp" comparisonType="value">
+    <apiso name="apiso:TempExtent_begin"/>
+  </property-meaning> 
+  <property-meaning name="apiso.TempExtent_end" valueType="Timestamp" comparisonType="value">
+    <apiso name="apiso:TempExtent_end"/>
+  </property-meaning>   
+  
+  <!-- table 14 (page 49) for service  -->
+  <!-- service based queryables -->
+  <property-meaning name="apiso.ServiceType" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:ServiceType"/>
+  </property-meaning> 
+  <property-meaning name="apiso.ServiceTypeVersion" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:ServiceTypeVersion"/>
+  </property-meaning> 
+  <property-meaning name="apiso.Operation" valueType="String" comparisonType="terms">
+    <apiso name="apiso:Operation"/>
+  </property-meaning>  
+  
+  <!-- OperatesOnData defined in Table 15 -->
+  <property-meaning name="apiso.OperatesOn" valueType="String" comparisonType="value">
+    <apiso name="apiso:OperatesOn"/>
+  </property-meaning> 
+  <property-meaning name="apiso.OperatesOnIdentifier" valueType="String" comparisonType="value">
+    <apiso name="apiso:OperatesOnIdentifier"/>
+  </property-meaning>   
+  <property-meaning name="apiso.OperatesOnName" valueType="String" comparisonType="value">
+    <apiso name="apiso:OperatesOnName"/>
+  </property-meaning>   
+  <property-meaning name="apiso.CouplingType" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:CouplingType"/>
+  </property-meaning> 
+
+ <!-- additional INSPIRE queryables -->
+ <property-meaning name="apiso.Degree" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:Degree"/>
+  </property-meaning>  
+  
+ <property-meaning name="apiso.AccessConstraints" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:AccessConstraints"/>
+  </property-meaning>  
+ <property-meaning name="apiso.OtherConstraints" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:OtherConstraints"/>
+  </property-meaning>  
+ <property-meaning name="apiso.Classification" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:Classification"/>
+  </property-meaning>  
+
+  <property-meaning name="apiso.SpecificationTitle" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:SpecificationTitle"/>
+  </property-meaning>  
+ <property-meaning name="apiso.SpecificationDate" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:SpecificationDate"/>
+  </property-meaning>  
+ <property-meaning name="apiso.SpecificationDateType" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:SpecificationDateType"/>
+  </property-meaning>  
+  	
+ <property-meaning name="apiso.Lineage" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:Lineage"/>
+  </property-meaning>  
+  
+   <property-meaning name="apiso.ResponsiblePartyRole" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:ResponsiblePartyRole"/>
+  </property-meaning>  
+
+ <property-meaning name="apiso.ConditionApplyingToAccessAndUse" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:ConditionApplyingToAccessAndUse"/>
+  </property-meaning>  
+  
+  <property-meaning name="apiso.inspireSpatialDataThemes" valueType="String" comparisonType="keyword">
+    <apiso name="apiso:inspireSpatialDataThemes"/>
+  </property-meaning>  
+  
+  <!-- FGDC properties --> 
+    
+  <property-meaning name="fgdc.begdate" valueType="Timestamp" comparisonType="value">
+  </property-meaning>
+  
+  <property-meaning name="fgdc.enddate" valueType="Timestamp" comparisonType="value">
+  </property-meaning>
+  
+  <property-meaning name="fgdc.sngdate" valueType="Timestamp" comparisonType="value">
+  </property-meaning>
+  
+  <property-meaning name="fgdc.multidate" valueType="Timestamp" comparisonType="value">
+  </property-meaning>
+  
+  <property-meaning name="dcat.accessLevel" valueType="String" comparisonType="value">
+  </property-meaning>
+  <property-meaning name="dcat.mbox" valueType="String" comparisonType="value">
+  </property-meaning>
+  <property-meaning name="dcat.person" valueType="String" comparisonType="value">
+  </property-meaning>
+  <property-meaning name="dcat.license" valueType="String" comparisonType="value">
+  </property-meaning>
+  <property-meaning name="dcat.dataDictionary" valueType="String" comparisonType="value">
+  </property-meaning>
+  
+        
+</property-meanings>
