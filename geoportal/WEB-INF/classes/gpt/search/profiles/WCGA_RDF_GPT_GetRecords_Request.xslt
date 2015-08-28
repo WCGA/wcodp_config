@@ -664,6 +664,71 @@ Template default
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
 					   <ogc:Literal>{8D1B2DF6-79B0-4D06-9252-A107E9522990}</ogc:Literal>
 					</ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Halibut Post MPA - Commercial Fishery - North Central Region - 2011 -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{FD25F358-705A-435C-B2BE-519373AECCBF}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Dungeness Crab Post MPA - Commercial Fishery - North Central Region - 2011 -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{BAED2374-D115-40C5-A80B-78C97C558B44}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Finfish Post MPA - Hook and Line Commercial Fishery - North Central Region - 2011 -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{EA32F3A5-A1C1-40BE-B74E-5FD4E21BF86C}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Salmon Post MPA - Troll Commercial Fishery - North Central Region - 2011 -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{88AA2BA9-C500-49AF-BC91-54579422203D}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Urchin Post MPA - Commercial Fishery - North Central Region - 2011 -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{FA6F586E-0943-43F4-8E69-BFED5E6023E9}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California - Beach Combing -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{3C9B784C-EACE-4760-A822-1ED3C41A2654}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California - Beach Going (dog walking, kite flying, etc.) -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{104AD08A-CA8E-4A28-9182-09C1DDE8BCC5}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California - Bird Watching -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{AFB20A7A-F5BC-4EEC-9CE3-6225836A5850}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California - Biking and Hiking -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{DA63D9E4-57A7-4878-AB22-4FB8CB06836A}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Sitting in Your Car Watching the Scene -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{4951B00C-BEBA-407D-A3F7-A48BCEA9BE13}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Photography -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{6BEA1D29-DB07-449F-BBAB-6F6006ED7C42}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Scenic Enjoyment -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{91B5FB6D-5B67-4A56-B84C-7A469D87DD9B}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Swimming or Body Surfing in the Ocean -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{186B6132-E9A6-4514-AE17-912D013A17D7}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
 	
 	
 	
