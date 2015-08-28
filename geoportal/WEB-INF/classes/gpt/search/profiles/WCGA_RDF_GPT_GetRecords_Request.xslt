@@ -729,7 +729,21 @@ Template default
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                       <ogc:Literal>{186B6132-E9A6-4514-AE17-912D013A17D7}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-	
+                    <ogc:PropertyIsEqualTo>
+                      <!--Kelp Persistence - North Central Coast - 1999 to 2010 [ds1058] -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{BAFF5390-CE95-4300-AD7E-38B2DAAB6E20}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Near Shore Habitat - North Central Coast - 2010 [ds1030] -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{6C93B6A2-1D51-4BD0-BFC6-BEC11DEEB5A8}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!--Kelp Habitat - North Central Region - 2010 [ds1095] -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{FF9DA2BA-088A-4710-B077-044636DEB70D}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
 	
 	
 	
