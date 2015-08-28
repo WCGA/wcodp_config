@@ -167,16 +167,6 @@
                                     <ogc:Literal>5fd367b4-a823-4c32-a617-92837d5d529e</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
                                 <ogc:PropertyIsEqualTo>
-                                    <!-- OPT License Area Location for Single Wave Energy Buoy, FERC, 2010 -->
-                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                                    <ogc:Literal>4f056b71-8813-4f3f-a374-e497a7c1b548</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <!-- OPT Wave Energy Lease Area 15MW, FERC, 2010 -->
-                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                                    <ogc:Literal>5bea1c2b-9ce2-4083-83a2-3cc3c5fb5c62</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
                                     <!-- Oregon Coastal Zone, OCMP, 2001 -->
                                     <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                                     <ogc:Literal>21229dbe-37c5-4545-a61b-c0d5896c521f</ogc:Literal>
@@ -281,11 +271,7 @@
                                     <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                                     <ogc:Literal>e274b8bc-7788-4631-ad32-74467087b16d</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
-                                <ogc:PropertyIsEqualTo>
-                                    <!-- Coastal Vulnerability to Sea-Level Rise: A Preliminary Database for the U.S. Pacific Coast, USGS, 2001 -->
-                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                                    <ogc:Literal>1d9e9a7e-72fc-4ca5-bd24-1621a45a41a1</ogc:Literal>
-                                </ogc:PropertyIsEqualTo>
+                   
 
              <!-- /Oregon Coastal Atlas -->
                            </ogc:Or> 

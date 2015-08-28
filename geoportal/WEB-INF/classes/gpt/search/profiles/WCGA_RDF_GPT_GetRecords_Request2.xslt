@@ -409,6 +409,230 @@ Template default
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                       <ogc:Literal>{8217CC72-8DAE-4CB8-BC58-C68FA1176FAA}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Halibut Post MPA - CPFV Fishery - Central Region -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                              <ogc:Literal>{C976EC89-808D-47FA-A054-C45B6C537471}</ogc:Literal>
+                                                                </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Rockfish/Lingcod Post MPA - CPFV Fishery - Central Region -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                                                     <ogc:Literal>{042F749C-F02B-48F1-863B-E261567F787B}</ogc:Literal>
+                                                                                                                                     </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Salmon Post MPA - CPFV Fishery - Central Region [ds1092] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                                                                            <ogc:Literal>{F6019371-2D50-4626-9A38-9C623B087006}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Dungeness Crab PreMPA - Commercial Fishery - Central Region [ds1075] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                                                                                                   <ogc:Literal>{A8100F9E-2167-4AC3-8130-76113DF2DA64}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Market Squid PreMPA - Commercial Fishery - Central Region [ds1076] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                                                                                                                          <ogc:Literal>{C06001D0-5CCD-41E5-BED4-438EACFACBDD}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!--Finfish PreMPA - Hook and Line Commercial Fishery - Central Region [ds1077] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{9AD90116-401B-4ECC-99CA-EF83CEBC8C8E}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!--Finfish PreMPA - Trap Commercial Fishery - Central Region [ds1078] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{4EDD250-1D3C-4A2A-AB78-3E0AF8C22156}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!--Halibut PostMPA - Commercial Fishery - Central Region [ds1079] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{4CEF3CFE-43B0-4C4B-8AB3-78D2C05E6ED6}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Coastal Pelagic Species PostMPA - Commercial Fishery - Central Region [ds1080] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{FE99108F-94C5-47C9-A26A-B03F1CB0CD56}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Dungeness Crab PostMPA - Commercial Fishery - Central Region [ds1081] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{EF4C6AD0-8F5A-43FA-BF75-697334F34304}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Market Squid PostMPA - Commercial Fishery - Central Region [ds1082] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{4166ED7D-8896-4F7F-AA27-9C5EEBDAA172}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Finfish PostMPA - Trap Commercial Fishery - Central Region [ds1084] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{084B1993-280F-4385-A667-EF0C97681D87}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Halibut Post MPA - Commercial Fishery - North Central Region [ds1100] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{732BF23F-B5B4-4C7E-8C15-1CBF224B1624}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- DungenessCrab Post MPA - Commercial Fishery - North Central Region [ds1101] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{8B414295-F844-45BB-81DF-15D06B91FC85}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Finfish PostMPA - Hook and Line Commercial Fishery - North Central Region [ds1102] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{1282D611-D793-4744-8758-8A2AF8D66226}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Urchin Post MPA - Commercial Fishery - North Central Region [ds1103] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{5CE39917-5745-4B19-B9D0-B090AB914FD3}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Halibut Post MPA - CPFV Fishery - North Central Region [ds1108] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{A99FE935-744F-49B6-B384-2210A642E11C}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Dungeness Crab PostMPA - CPFV Fishery - North Central Region [ds1109] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{9833441C-83D2-4266-8DF2-2639EF18AF4F}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- RockFish Post MPA - CPFV Fishery - North Central Region [ds1110] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{12FB11A3-2743-4601-908F-D6C1334435A5}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Salmon Post MPA - CPFV Fishery - North Central Region [ds1111] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{F43C30A3-7179-4E2B-B243-2E9D0AA19353}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Striped Bass Post MPA - CPFV Fishery - North Central Region [ds1112] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{7667148C-99CA-4CB5-811C-954C1E549399}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Finfish PostMPA - Hook and Line Commercial Fishery - Central Region [ds1083] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{8F0C6498-7B5D-4452-B1E8-F3BE90089AFD}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Abalone - Recreational Harvest - North Central Coast - 2010 [ds1113] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{86F424FB-25AB-4F56-8283-494C47059958}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Halibut Change Analysis - Commercial Fishery - Central Region [ds1085] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{89061BEB-15EE-4C37-B398-B1ECD0B37767}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Dungeness Crab Change Analysis - Commercial Fishery - Central Region [ds1086] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{E99A5368-9C97-4386-B149-3FEA9E20EBB3}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Market Squid Change Analysis - Commercial Fishery - Central Region [ds1087] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{FE03AAB3-E8C9-4940-8C96-9792FB23782C}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!--Finfish Change Analysis - Hook and Line Commercial Fishery - Central Region [ds1088] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{B696F581-203B-4F91-8F94-0AD7F77EA79E}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Finfish Change Analysis - Trap Commercial Fishery - Central Region [ds1089] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{5EBFF43F-CCC1-47E1-8833-639AB82F476B}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Recreation - North Central Region [ds1114] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{78C7DD6C-B6B6-47BB-885C-2BAB1AB5C9E1}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Halibut Change Analysis - Commercial Fishery - North Central Region [ds1104] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{F2E52606-741C-451E-BBC6-EB37BAFF4103}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Dungeness Crab Change Analysis - Commercial Fishery - North Central Region [ds1105] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{CC7DFAA3-0E17-4401-AA9C-4785B0DD17D6}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Finfish Change Analysis - Hook and Line Commercial Fishery - North Central Region [ds1106] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{3B992DA9-A965-421A-9EAC-74A948BD612B}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                  <!-- Urchin Change Analysis - Commercial Fishery - North Central Region [ds1107] -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+
+             <ogc:Literal>{A936129A-7DB3-4012-9A42-69B98126B231}</ogc:Literal>
+
+        </ogc:PropertyIsEqualTo>
 
 
               <!-- /CALIFORNIA -->
@@ -569,7 +793,6 @@ Template default
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                        <ogc:Literal>{2A536E89-E9EA-4B20-AC3A-C424A44C92D2}</ogc:Literal>
                   </ogc:PropertyIsEqualTo>
-
 
                     <!-- /Oregon Spatial Data Library -->
 
