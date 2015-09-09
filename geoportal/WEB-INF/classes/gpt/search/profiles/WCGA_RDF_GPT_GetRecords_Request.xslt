@@ -702,12 +702,12 @@ Template default
                     <ogc:PropertyIsEqualTo>
                       <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California - Bird Watching -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{AFB20A7A-F5BC-4EEC-9CE3-6225836A5850}</ogc:Literal>
+                      <ogc:Literal>{21BE88B4-444F-46C4-957C-6E2D9C31A057}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <ogc:PropertyIsEqualTo>
                       <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California - Biking and Hiking -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{DA63D9E4-57A7-4878-AB22-4FB8CB06836A}</ogc:Literal>
+                      <ogc:Literal>{63CD2D82-9700-421B-A288-97A4EB3A9986}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <ogc:PropertyIsEqualTo>
                       <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Sitting in Your Car Watching the Scene -->
@@ -722,12 +722,12 @@ Template default
                     <ogc:PropertyIsEqualTo>
                       <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Scenic Enjoyment -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{91B5FB6D-5B67-4A56-B84C-7A469D87DD9B}</ogc:Literal>
+                      <ogc:Literal>{F2354B29-A5E8-4327-AFED-8389A59EC9D6}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <ogc:PropertyIsEqualTo>
                       <!--An Economic and Spatial Baseline of Coastal Recreation in the North Central Coast of California – Swimming or Body Surfing in the Ocean -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{186B6132-E9A6-4514-AE17-912D013A17D7}</ogc:Literal>
+                      <ogc:Literal>{76B1B4B6-FE4F-4556-B2F3-7832C8FD3AFC}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <ogc:PropertyIsEqualTo>
                       <!--Kelp Persistence - North Central Coast - 1999 to 2010 [ds1058] -->
