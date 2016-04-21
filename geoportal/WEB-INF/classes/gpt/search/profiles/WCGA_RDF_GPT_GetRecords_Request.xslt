@@ -747,6 +747,7 @@ Template default
 	
 	
 	
+	
               <!-- /CALIFORNIA -->
   
 
@@ -1750,4 +1751,5 @@ Outputs CSW sorting parameters
     <xsl:attribute name="maxRecords"><xsl:value-of select="/GetRecords/MaxRecords"/></xsl:attribute>
   </xsl:attribute-set>
 </xsl:stylesheet>
+
 

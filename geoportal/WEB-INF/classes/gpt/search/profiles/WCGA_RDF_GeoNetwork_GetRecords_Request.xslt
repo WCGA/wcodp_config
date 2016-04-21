@@ -271,9 +271,211 @@
                                     <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                                     <ogc:Literal>e274b8bc-7788-4631-ad32-74467087b16d</ogc:Literal>
                                 </ogc:PropertyIsEqualTo>
-                   
-
-             <!-- /Oregon Coastal Atlas -->
+							<!-- /Oregon Coastal Atlas -->
+							
+							<!-- Straits of Georgia Data Catalog, BC -->
+								<ogc:PropertyIsEqualTo>
+                                    <!--Sportfishing Activity Locations, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>CD67FCA4-5485-4C29-B799-FC86618BB5F4</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Marinas and Coastal Facility Locations, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>DEF90A6E-B3A0-4DE3-AC16-93CDC1F019FE</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Rugosity of BC coast -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>CC47F1F9-44E0-4641-A71E-09F67AB9E9BA</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--California Sea Lion Haulout Locations - polygons -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>72B4337E-85F3-4A65-98CD-04D26DCBF244</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Coastal Campsites and Kayak Use Sites -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>74A5936A-5C61-4427-9B74-FF667866FCC0</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Sportfishing activities for anadromous fish along the coast of British Columbia, 1993-2009 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>DD35422D-16C0-448F-B6E6-A6024A10047A</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Ocean Energy Feature Count -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>4CB23F57-5733-4F25-83C1-651C9BC140BB</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Physical Feature Count -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>DFA27AC0-A422-484F-93CF-B78DF1C1C0A2</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--BCMCA Marine Mammal Feature Counts -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>22A7B897-7023-41C7-B0F5-FD0B1C4090A4</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Tanker Exclusion Zone -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>CBE93775-8084-4C7F-87F5-687CD2A3AFC1</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Coastal Ferry Routes -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>8AE6A7A1-83EF-4851-861B-C53A84E625A2</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Spatial Extents of Seamounts, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>025E382B-80E2-4D66-8101-0F44F90EF324</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Steller Sea Lion Rookery Locations -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>02096391-1AB5-49BC-981A-7DFEC96F8914</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Federally Issued Offshore Oil and Gas Tenures-BC Coast Locations -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>80231826-EAF8-4124-A9F9-A614D47B163A</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Ocean Energy - Exploratory Wells Locations -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>0E5E3519-EAFC-45F0-B044-FCD7C7BDDF67</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Locations of High Chlorophyll Concentration on the BC Coast -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>F8CD2019-E1DF-452F-A88A-9CAB98765B8A</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								 <ogc:PropertyIsEqualTo>
+                                    <!--Herring Spawn Data -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>60E0BB6F-3911-4579-8305-2E16B47DA805</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Steller Sea Lion Haulout Locations -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>033A6B4C-C91D-446E-940E-ABE092FCA9DA</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Harbour Seal Haulout Locations -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>722CE916-9563-4153-845C-5BFA24D44D97</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--BCMCA_ECO_FeatureCount, 2010 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>0D42F341-167E-43BE-B4EB-E38700AB1910</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Sportfishing Feature Count -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>A7E63F90-76FF-44AA-9B7E-80B403F6C033</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Recreation Boating Routes, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>FA28DC31-7BFA-4C7D-98A0-E47D62B20BE9</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--BCMCA Bird Feature Count, 2010 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>80D366B4-5339-4868-A452-FA660EA5B53E</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Oil and Gas Prospectivity-BC Coast -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>84FBE709-EB9B-47E7-A16E-23D6A62B193D</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Areal extents of Semi-Palmated Plover Nests - point data, 2009 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>9842E331-4744-4C6B-AD63-371C07E1953E</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Groundfish sportfishing locations along the coast of British Columbia -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>CDE7CD9C-3315-4545-BB65-BB9BC4D9D566</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Basking Shark Recent Captures and Sightings,1990-2008 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>06D4395E-A6CE-4C94-8DF4-996FDEDFDE90</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Tourism and Recreation Feature Count -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>8DE7B33F-D0F8-4E63-A55B-FBF8AD65016B</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Basking Shark Historical Abundance, 1948-1950 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>C95B932F-5E84-4E26-BFD8-B81C356315F6</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--BCMCA Marine Plant Feature Count -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>8C594C6B-64C2-4C9C-A28B-54C72B72C599</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Benthic Habitat Representation -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>E745E38A-24C7-44DB-AC63-BB30FE5331CD</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Groundfish sportfishing locations along the coast of British Columbia, 1993-2009 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>86AC6BCA-8D39-47C4-9CBE-623CAD5E23AE</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--BCMCA Invertebrate Fishery Feature Counts, 2010 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>E74A508A-74D8-47ED-874F-80740F351520</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--BCMCA Giant Kelp (Macrocystis integrifolia) presence -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>75F3E0C5-0CDB-44C3-966D-7CE79334D08F</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Anchorage and Safe Boat Haven Locations, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>BAA322D0-8241-485A-A614-D6BB616E7EEF</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--bcmca Commercial Fishing Feature Count -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>FAC68384-6D06-426D-A456-6C637E352F56</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Crab Sportfishing Activity Locations, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>11A961AD-E7EF-4B38-8A0C-037A8DD2C4DD</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Marine Bird Survey Effort, 2009 -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>F59FE1AE-5589-4AEF-863C-BB7B5A568503</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--SCUBA dive sites, BC -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>6A787FFF-E95E-47A4-BB30-8F269FAF9291</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+								<ogc:PropertyIsEqualTo>
+                                    <!--Sea Kayaking Routes, BC Coast -->
+                                    <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                                    <ogc:Literal>E26C3321-6428-4E32-8CFC-2B9EA724CAD8</ogc:Literal>
+                                </ogc:PropertyIsEqualTo>
+							<!-- /Straits of Georgia Data Catalog, BC -->
+							
                            </ogc:Or> 
                          </ogc:And>
 <!--
