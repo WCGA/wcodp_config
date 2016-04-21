@@ -1330,6 +1330,19 @@ Template default
                     </ogc:PropertyIsEqualTo>
 
                     <!--/ OSU Active tectonics Lab -->
+
+              <!-- NCCOS Geospatial Portal -->
+
+                    <!-- Test Record 1 (ISO): Biogeographic characterization of fish and benthic communities, Flower Garden Banks, Texas 2006-09-13 to 2012-10-02 -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{EACB6602-04BF-45BB-B97A-87D94D65DC61}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <!-- Test Record 2 (FGDC): NOAA's Web Service for the New York Offshore Biogeographic Assessment -->
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{05043BE7-E660-400C-A38B-7D7066295B0D}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+
+              <!--/ NCCOS Geospatial Portal -->
                   
                     <!-- EPA Data Exchange -->
                     
