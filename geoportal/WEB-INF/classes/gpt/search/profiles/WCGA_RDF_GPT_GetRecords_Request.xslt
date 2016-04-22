@@ -1343,6 +1343,12 @@ Template default
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                        <ogc:Literal>{05043BE7-E660-400C-A38B-7D7066295B0D}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Test Record 3 (FGDC): Blue whale at-sea density off California -->
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{BAD007BA-8B30-4F21-9DFD-76E5DBE251DE}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+
 
               <!--/ NCCOS Geospatial Portal -->
                   
