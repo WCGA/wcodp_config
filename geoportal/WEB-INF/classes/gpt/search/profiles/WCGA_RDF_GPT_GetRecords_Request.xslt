@@ -1130,6 +1130,26 @@ Template default
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                       <ogc:Literal>{B8125FE1-5C8F-4F38-AE0D-9AC8CD81C958}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!-- Shellfish Recreational Beaches -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{749FF43C-2682-425E-80DD-0A7087F34D35}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!-- Biotoxin Closure Zones -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{7BB707ECE9-39C0-4EC2-BB50-F290934941F4}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!-- Shellfish Commercial Growing Areas -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{6D037A89-D4ED-4363-83D6-8D1A998E57F1}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <ogc:PropertyIsEqualTo>
+                      <!-- Shellfish Commercial Harvest Sites -->
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{9208952F-C5BD-406A-8E92-1A7FD8AF732D}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
                     <!-- /Washington Geoportal -->
                     
                     <!-- National Ocean Service -->
