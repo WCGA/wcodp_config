@@ -1138,7 +1138,7 @@ Template default
                     <ogc:PropertyIsEqualTo>
                       <!-- Biotoxin Closure Zones -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{7BB707ECE9-39C0-4EC2-BB50-F290934941F4}</ogc:Literal>
+                      <ogc:Literal>{B707ECE9-39C0-4EC2-BB50-F290934941F4}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <ogc:PropertyIsEqualTo>
                       <!-- Shellfish Commercial Growing Areas -->
