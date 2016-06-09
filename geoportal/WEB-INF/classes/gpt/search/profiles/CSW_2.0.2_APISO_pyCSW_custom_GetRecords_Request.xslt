@@ -43,289 +43,351 @@
 	  
             <ogc:Or>
 			<!--Ocean Biogeographic Information System (OBIS) USA Dataset Collection -->
-			 <ogc:PropertyIsEqualTo>
-			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>fd25633d-4cf2-499b-ab4b-73be048ddcc9</ogc:Literal>
+			<ogc:PropertyIsEqualTo>
+				<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>5eb81bab-3f04-418d-a03a-d5cc88922ff2</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
+			
 			<!-- NOAA National Benthic Infaunal Database (NBID) -->
 			<ogc:PropertyIsEqualTo>
-			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>4c58bf94-848f-4ba8-9bbc-17c7546ea836</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- U.S. Pacific West Coast Internet Map Server -->
+			
+			<!-- U.S. PACIFIC - Coastal Vulnerability to Sea-Level Rise: U.S. Pacific Coast -->
 			<ogc:PropertyIsEqualTo>
-			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>2ee78410-643a-43e2-9770-369d0a8629c2</ogc:Literal>
+				<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>18b0a706-2c22-43cb-807c-085ed1e3074f</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
+			
 			<!-- California 2010 Lidar Coverage, USACE National Coastal Mapping Program -->
 			<ogc:PropertyIsEqualTo>
-			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>80951992-3868-45aa-9d1d-b1fea0e1b890</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- California 2010 Lidar Coverage, USACE National Coastal Mapping Program -->
+			
+			<!-- California 2009 Lidar Coverage, USACE National Coastal Mapping Program -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>80951992-3868-45aa-9d1d-b1fea0e1b890</ogc:Literal>
+				<ogc:Literal>eec69941-8f2f-49b3-abd4-db6dacd6f585</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
+			
 			<!-- boccaccio-larvae-distribution-off-california -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>6f1e3345-4385-4751-bb06-e9d0ee03bf82</ogc:Literal>
+				<ogc:Literal>3b5b6138-bd72-426e-9b42-2804b65167dd</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
+			
 			<!-- northern-anchovy-larvae-distribution-off-california -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>a51dfbbd-eaf9-49fb-9608-687504603d04</ogc:Literal>
+				<ogc:Literal>709447db-3d41-4828-bd36-3150ad60f7f7</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- pacific-sardine-larvae-distribution-off-california -->
+			
+			<!-- Pacific sardine larvae distribution off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>0546521e-f13d-4f62-9b1d-42f65845fc8e</ogc:Literal>
+				<ogc:Literal>b3d736fe-183e-4c98-968d-6ef0f8f9fa29</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- brown-pelican-at-sea-density-off-california -->
+			
+			<!-- Brown pelican at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>d0494e02-cea3-4ee6-8d87-0d297e947132</ogc:Literal>
+				<ogc:Literal>35404b50-612b-4706-9bcb-769e412d10fa</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- ashy-storm-petrel-at-sea-density-off-california -->
+			
+			<!-- Ashy storm-petrel at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>b4220286-5d45-4822-a504-9591ea6c2380</ogc:Literal>
+				<ogc:Literal>a0dad7a8-395f-4993-b071-efacdf8447b8</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- brandts-cormorant-at-sea-density-off-california -->
+			
+			<!-- Brandt's cormorant at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>446745e1-1944-4baa-9075-0b2d57bc3365</ogc:Literal>
+				<ogc:Literal>1f863101-2860-4468-8b07-2273bb2a4eff</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- cossins-auklet-at-sea-density-off-california -->
+			
+			<!-- Cassins auklet at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>1b341514-4427-4888-91be-f8c0301d50a8</ogc:Literal>
+				<ogc:Literal>0b074382-6905-433a-98bf-a1e5ea4112b9</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- double-crested-cormorant-at-sea-density-off-california -->
+			
+			<!-- Double-crested cormorant at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>916e39a5-277d-42b4-9370-c5843dea75d5</ogc:Literal>
+				<ogc:Literal>55c55bbf-97c4-4b9e-a2ed-fdb45fd6d620</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- pelagic-cormorant-at-sea-density-off-california -->
+			
+			<!-- Pelagic cormorant at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>25a162b8-49aa-4428-97db-1e74a8aa9146</ogc:Literal>
+				<ogc:Literal>41aae6b6-dde7-4fa0-bd3d-b92b44ff5e69</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- pigeon-guillemot-at-sea-density-off-california -->
+			
+			<!-- Pigeon guillemot at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>2778465d-d59d-4efb-8f82-925fcfd1ed2c</ogc:Literal>
+				<ogc:Literal>473e7a4f-263b-47ca-b2b1-169aabc51e72</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- xantuss-murrelet-at-sea-density-off-california -->
+			
+			<!-- Xantus's murrelet at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>e17e6083-276c-4189-a7ae-c50f4fb5683c</ogc:Literal>
+				<ogc:Literal>a9e76a62-5f18-4406-a1f3-6cedf45a4fac</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- data-integration-birds-mammals-fish-and-invertebrates -->
+			
+			<!-- Data ingegration - birds, mammals, fish, and invertebrates -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>4dce62ee-8d6d-483b-adb3-e4ea87d0f617</ogc:Literal>
+				<ogc:Literal>efe6b62b-cae8-458a-85f0-545763fe7dd4</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- composite-fish-diversity-off-southern-california -->
+			
+			<!-- Composite fish diversity off southern California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>436f30d5-dcf2-4a3b-936f-d3bdebcd209e</ogc:Literal>
+				<ogc:Literal>868143cc-69c2-4d56-9c46-94efff80f59e</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-diversity-in-central-and-southern-california-using-fish-catch-and-effort-data-from-the-rec -->
+			
+			<!-- Fish diversity in central and southern California using fish catch and effort data from the Recreational Fisheries Information Network -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>892bd1f1-d26f-4a2c-b132-1e9e445a913c</ogc:Literal>
+				<ogc:Literal>5dff7ae2-f1bc-4471-8b81-1bcd23cf035e</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-and-invertebrate-data-integration -->
+			
+			<!-- Fish and invertebrate data integration -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>2e7cbf7b-52c6-4bd2-b9c2-f9a8d76a129f</ogc:Literal>
+				<ogc:Literal>df865df9-9c10-49d3-8c7d-e962e1068ddd</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- marine-bird-and-mammal-data-integration -->
+			
+			<!-- Marine bird and mammal data integration -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>494df2d6-b87f-407c-8143-83e7f17991b9</ogc:Literal>
+				<ogc:Literal>25df26a3-eb72-42c4-ac99-b1c268f645ea</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-assemblages-in-central-and-southern-california-using-fish-catch-and-effort-data-from-the-r -->
+			
+			<!-- Fish assemblages in central and southern California using fish catch and effort data from the Recreational Fisheries Information Network -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>ebc9e13e-9c10-440d-af2e-f4e604b2d686</ogc:Literal>
+				<ogc:Literal>4219c2fd-c5c2-408c-a1f7-e0010b7ffcb1</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
+			
 			<!-- blue whale at sea density -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>971be32d-a6b7-4de8-9ab1-d938f49bae33</ogc:Literal>
+				<ogc:Literal>baf5037c-dcf0-4bea-856e-7a4193308296</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- pacific-white-sided-dolphin-at-sea-density-off-california -->
+			
+			<!-- Pacific white-sided dolphin at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>50829ee6-de07-4797-85ad-2523ca2b6445</ogc:Literal>
+				<ogc:Literal>b3a1c533-9330-4f09-b4db-0a88778f526a</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- dalls-porpoise-at-sea-density-off-california -->
+			
+			<!-- Dall's porpoise at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>798177d1-06a0-4a7b-8733-4511daf03c56</ogc:Literal>
+				<ogc:Literal>852b4a24-bd9a-4345-9748-b1f8aa6475e3</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- northern-right-whale-dolphin-at-sea-density-off-california -->
+			
+			<!-- Northern right-whale dolphin at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>b4aeec0f-db52-4af7-82dd-c7d9dba98ef4</ogc:Literal>
+				<ogc:Literal>ddaaf65b-ca13-4d55-b841-c9759280f13d</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- humpback-whale-at-sea-density-off-california -->
+			
+			<!-- Humpback whale at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>06965992-a751-40fd-a59f-180b43fe30d9</ogc:Literal>
+				<ogc:Literal>788b3284-1fc4-4b38-8e0b-f3ac21b052ba</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- gray-whale-at-sea-density-off-california -->
+			
+			<!-- Gray whale at-sea density off California-->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>e0b6f630-6518-4313-ace1-0aeb707aab48</ogc:Literal>
+				<ogc:Literal>5e1e8b56-f70c-473d-a9d5-31ef196704d9</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- minke-whale-at-sea-density-off-california -->
+			
+			<!-- Minke whale at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>8d732052-5c47-4252-8037-e11b55247154</ogc:Literal>
+				<ogc:Literal>39165d1b-670f-4c43-ad0f-63f6ea5c87f9</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fin-whale-at-sea-density-off-california -->
+			
+			<!-- Fin whale at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>c4ce2239-632f-4a4f-b4f0-04a6626f7ab9</ogc:Literal>
+				<ogc:Literal>d2de773a-cc99-4abd-9b19-c25e84deba23</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- killer-whale-at-sea-density-off-california -->
+			
+			<!-- Killer whale at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>7232531d-764d-47fa-9f54-2c0093802954</ogc:Literal>
+				<ogc:Literal>d6611966-7807-47d9-b9e4-c146a163e5d2</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- bottlenose-dolphin-at-sea-density-off-california -->
+			
+			<!-- Bottlenose dolphin at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>9394497e-5a47-454f-b096-3afecb9e368e</ogc:Literal>
+				<ogc:Literal>1af3357c-568a-4610-9e31-a882f8b1d1d8</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- common-dolphin-at-sea-density-off-california -->
+			
+			<!-- Common dolphin at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>2ae35ad7-c7a0-47a1-bcf7-44609d2db11d</ogc:Literal>
+				<ogc:Literal>c6a5e07f-441c-4b60-a02a-60ded90aa43f</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- harbor-porpoise-at-sea-density-off-california -->
+			
+			<!-- Harbor porpoise at-sea density off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>a3659543-4898-4720-ab9c-9f4b0153282b</ogc:Literal>
+				<ogc:Literal>c00bd8b6-a0c2-42d7-89a6-b3f3d825ecc0</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-diversity-in-southern-california-using-trawl-data-from-the-national-marine-fisheries-servi -->
+			
+			<!-- Fish diversity in southern California using trawl data from the National Marine Fisheries Service -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>7e91f5f6-e661-4043-8bbb-7c3d4b6de2a4</ogc:Literal>
+				<ogc:Literal>1d92569f-82d2-42a4-9b55-4ac5ec610f70</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-assemblages-in-southern-california-using-trawl-data-from-the-national-marine-fisheries-ser -->
+			
+			<!-- Fish assemblages in southern California using trawl data from the National Marine Fisheries Service -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>eff927e1-462f-46d2-bebf-7a881084afa4</ogc:Literal>
+				<ogc:Literal>79bfaa96-dbe8-4b7f-8713-26664de7abff</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-diversity-in-southern-california-using-scuba-surveys-in-kelp-forests -->
+			
+			<!-- Fish diversity in southern California using scuba surveys in kelp forests -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>38828cac-bd92-4cab-b389-af62e5f845d0</ogc:Literal>
+				<ogc:Literal>b379d43d-5be0-4b46-bc58-a7ed1b681155</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- fish-assemblages-in-southern-california-kelp-forests -->
+			
+			<!-- Fish assemblages in southern California kelp forests. -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>61d2ab58-7ec6-4ea3-b3c7-3652aedb77b6</ogc:Literal>
+				<ogc:Literal>0a404c52-b0c1-41d8-86e2-0a32c3033ca5</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- marine-invertebrate-assemblages-in-southern-california -->
+			
+			<!-- Marine Invertebrate assemblages in southern California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>3e4a6132-089d-4576-ad66-baf2033cf8b2</ogc:Literal>
+				<ogc:Literal>8754e099-58a7-4241-92a6-17a4598436b4</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- nearshore-marine-fish-diversity-in-southern-california-using-trawl-information-from-the-souther -->
+			
+			<!-- Nearshore marine fish diversity in southern California using trawl information from the Southern California Coastal Water Research Project.-->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>71b694ab-d5a5-448f-aa95-101647b048b2</ogc:Literal>
+				<ogc:Literal>b052a7e2-0db2-46bc-8db5-e48b577eaae0</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- five-minute-grid-of-marine-bird-biomass-density-off-central-california-oceanic-season-1980-200 -->
+			
+			<!-- Five-minute grid of marine bird biomass density off central California - Oceanic season, 1980-2001 -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>c8b5d4fa-d643-44ef-9977-19e50c60d524</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- digital-data-set-describing-surficial-geology-in-the-conterminous-us -->
+			
+			<!-- Digital data set describing surficial geology in the conterminous US -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>414db26a-3599-40d0-994d-e69c77c7b3b5</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- pac-ext-extracted-seabed-data-for-the-continental-margin-of-the-u-s-pacific-coast-california-o -->
+			
+			<!-- PAC_EXT - Extracted seabed data for the continental margin of the U.S. Pacific Coast (California, Oregon, Washington) from usSEABED (pac_ext.txt) -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>7f5ea848-a193-4092-a310-da5f2a721679</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- 1994-average-monthly-sea-surface-temperature-for-california -->
+			
+			<!-- 1994 Average Monthly Sea Surface Temperature for California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>38dfdbdf-f09e-4ae3-b961-57885bdcf119</ogc:Literal>
+				<ogc:Literal>c44bd158-83e0-470c-9331-82b8f93f6ed7</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- 1993-average-monthly-sea-surface-temperature-for-california -->
+			
+			<!-- 1993 Average Monthly Sea Surface Temperature for California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>d33f85a5-b76e-4bed-9852-58ba6cfcc782</ogc:Literal>
+				<ogc:Literal>e8b8e5fb-1e1f-4ded-a67a-28713f908771</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- 1995-average-monthly-sea-surface-temperature-for-california -->
+			
+			<!-- 1995 Average Monthly Sea Surface Temperature for California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>c844852f-4750-46f9-92ea-c221e276917a</ogc:Literal>
+				<ogc:Literal>1e135f5c-14f4-4075-846b-c1755b4897a9</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- 1996-average-monthly-sea-surface-temperature-for-california -->
+			
+			<!-- 1996 Average Monthly Sea Surface Temperature for California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>1b79f17b-14ee-4a86-bcdd-ba9954453e2f</ogc:Literal>
+				<ogc:Literal>e1502ac5-fc55-49bf-9f10-acc07d9847d6</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- seagrass-distribution-off-california -->
+			
+			<!-- Seagrass distribution off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>b81478a4-97aa-4202-b2d5-3c059d47b824</ogc:Literal>
+				<ogc:Literal>e064700a-4ef2-4907-a907-24ac66f03c06</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- tidestations-pacific-northwest-water-level-stations-and-tidal-datum-distributions -->
+			
+			<!-- TIDESTATIONS - Pacific Northwest Water-Level Stations and Tidal Datum Distributions -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>4fdfc8cf-7efc-4eca-b607-1eb4aec527cd</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- 2003-average-monthly-sea-surface-temperature-for-california -->
+			
+			<!-- 2003 Average Monthly Sea Surface Temperature for California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>19a9c4ee-1479-4e89-9a00-6509767df83e</ogc:Literal>
+				<ogc:Literal>308a9f1a-7286-4838-9e06-24938bc616ca</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- coastal-zone-management-act-boundary-for-the-united-states-and-us-territories-as-of-decemb-2013 -->
+			
+			<!-- Coastal Zone Management Act Boundary for the United States and US Territories as of December 2013 -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>62dfdf35-d358-4ea5-9f4e-b7faacdddfac</ogc:Literal>
+				<ogc:Literal>60d6becd-7341-4882-8c03-56ade95ec53e</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- benthic-substrate-type-off-california -->
+			
+			<!-- Benthic substrate type off California -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>b9270bb1-2107-4ce2-a7f5-4ce64e38f300</ogc:Literal>
+				<ogc:Literal>b7825770-8ce2-45cb-b8d2-154e3f1e4704</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- environmental-sensitivity-index-esi-data-viewer-and-rest-services-for-atlases -->
+			
+			<!-- Environmental Sensitivity Index (ESI) Data Viewer and REST Services for Atlases -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>a7ff83b0-0a5d-4c8a-b7b6-a6012a5d9f75</ogc:Literal>
+				<ogc:Literal>28568202-f290-46a5-b2dc-5bdbf5f2c471</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- environmental-sensitivity-index-esi-threatened-and-endangered-species-rest-services -->
+			
+			<!-- Environmental Sensitivity Index (ESI) Threatened and Endangered Species REST Services -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>9bfeaba1-7912-4671-b682-a5cc0edf5b3d</ogc:Literal>
+				<ogc:Literal>e2d63ea9-4407-4259-aa05-dc296db4f262</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- pacific-coastal-vulnerability-to-sea-level-rise-u-s-pacific-coast -->
+			
+			<!-- PACIFIC - Coastal Vulnerability to Sea-Level Rise: U.S. Pacific Coast -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>18b0a706-2c22-43cb-807c-085ed1e3074f</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- noaa-digital-coast-sea-level-rise-and-coastal-flooding-impacts-viewer -->
+			
+			<!-- NOAA Digital Coast Sea Level Rise and Coastal Flooding Impacts Viewer -->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
-				<ogc:Literal>6dcc2e06-ecc2-4cad-9d0c-26c3042138b1</ogc:Literal>
+				<ogc:Literal>4a90f006-f108-4780-be33-1b9af0324d0e</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
-			<!-- national-fish-habitat-partnership-data-systemb47da -->
+			
+			<!--National Fish Habitat Partnership Data System-->
 			<ogc:PropertyIsEqualTo>
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>f2df3178-7949-43bf-a1ee-2f4974b80df3</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			
+			<!-- NOAA Coastal Mapping Shoreline Products -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>ca723f87-6cd8-4909-97ac-ea84dc9b71be</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 			</ogc:Or>
 
