@@ -1353,17 +1353,17 @@ Template default
 
               <!-- NCCOS Geospatial Portal -->
 
-                    <!-- Test Record 1 (ISO): Biogeographic characterization of fish and benthic communities, Flower Garden Banks, Texas 2006-09-13 to 2012-10-02 -->
+                    <!-- NCCOS Assessment: Predictive Mapping of Seabirds, Pinnipeds and Cetaceans off the Pacific Coast of Washington from 1995-07-21 to 2015-12-08 (NCEI Accession 0148762) -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                       <ogc:Literal>{EACB6602-04BF-45BB-B97A-87D94D65DC61}</ogc:Literal>
+                       <ogc:Literal>{11F9F47F-876D-4D0F-82AA-5F3424AEEA4A}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                    <!-- Test Record 2 (FGDC): NOAA's Web Service for the New York Offshore Biogeographic Assessment -->
+                    <!-- NCCOS PredictiveMapping_Washington map service -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                       <ogc:Literal>{05043BE7-E660-400C-A38B-7D7066295B0D}</ogc:Literal>
+                       <ogc:Literal>{466F4108-7C94-41CF-B95E-741CE5E66AE8}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                    <!-- Test Record 3 (FGDC): Blue whale at-sea density off California -->
+                    <!-- Blue whale at-sea density off California -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                        <ogc:Literal>{BAD007BA-8B30-4F21-9DFD-76E5DBE251DE}</ogc:Literal>
