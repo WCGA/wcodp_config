@@ -909,227 +909,163 @@ Template default
 
                     <!-- /Oregon Spatial Data Library -->
 
-                    <!-- Washington Geoportal -->
+                    <!-- Washington Geospatial Clearinghous -->
+                    <!-- Coastal Washington Land Cover 2006 -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Forest Practices Wetlands -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{B19D5945-ED94-4268-B202-A63CFE397982}</ogc:Literal>
+                      <ogc:Literal>{9E620EDF-2FF8-4D31-8DE0-6F461AADF024}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington State Levee Inventory  -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Coastal Washington Land Cover 2006 -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{7A3BCA83-00EA-451D-BB2C-9E0521E875D5}</ogc:Literal>
+                      <ogc:Literal>{061FBE36C-B943-4167-8144-E456CFE5EFBC}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Littoral Drift -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Rivers and Streams of Washington State 1:24,000 - str24 -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{419786C1-D481-45A8-A66B-F952B1DB6934}</ogc:Literal>
+                      <ogc:Literal>{2B2EDD89-CE76-4CB4-B8D2-56B81D897F73}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington watershed -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington State Levee Inventory  (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{09317F9A-0156-4B4C-965A-D5836044D083}</ogc:Literal>
+                      <ogc:Literal>{4368C6A3-0707-49DA-AD5C-1D11FA915A39}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-		    <ogc:PropertyIsEqualTo>
-                      <!-- Washington State Levee Inventory  (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{00334042-8F29-4B5A-A602-C93B25E1F9A9}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
+                    <!-- Washington Pacific Herring Holding Areas  -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington State Levee Inventory  (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{1CFE3397-2827-410E-BFD3-91ECA6A30CE6}</ogc:Literal>
+                      <ogc:Literal>{A95234D7-3FD6-4383-9A36-3679C4BD2C44}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Pacific Herring Spawning Areas  -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington Shoreline Arc  (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{56004969-19E4-4540-B0AE-E230159FA9D5}</ogc:Literal>
+                      <ogc:Literal>{0DC1DB4D-76A3-489C-92F7-51898B721CC2}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Pacific Sand Lance Spawning Areas  -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington Coastal Land Cover  (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{7A127EAD-6907-465B-B19A-AF2700871B51}</ogc:Literal>
+                      <ogc:Literal>{A5B01C2D-4C8F-4016-A963-01FD06891F89}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington Estuaries  (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{1828B630-EFD5-4A7F-9893-AB7FF5DB6AA6}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
+                    <!-- Washington Rock Sole Spawning  Areas-->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington Littoral Drift  (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{FE0C794A-4B9A-46E8-A352-092DC4CF1515}</ogc:Literal>
+                      <ogc:Literal>{6DB8E003-9EBF-4C71-9D39-0B0D62BD538A}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Surf Smelt Spawning  Areas -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington River  (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{419786C1-D481-45A8-A66B-F952B1DB6934}</ogc:Literal>
+                      <ogc:Literal>{8A964D12-8854-421F-AC35-10053F5C9370}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Pacific Oyster -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington River  temp (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{789E2C0C-F9F9-4520-875F-30C1C80C89C3}</ogc:Literal>
+                      <ogc:Literal>{F6A70549-C58B-44C0-A985-2717FFAD2208}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Geoduck Locations -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington watershed (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{5C1CD50C-9BE1-49B8-BD9E-7E4213C81E17}</ogc:Literal>
+                      <ogc:Literal>{DDD13AB5-ACDB-4BC7-9979-B9A849EB7BA2}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Sea Urchins  -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington Anadromous Fish Critical Habitat (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{B2820417-B331-4012-8B9D-497D81784743}</ogc:Literal>
+                      <ogc:Literal>{1340F06B-A0B8-47CF-A8EF-E4CFFF688E6B}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Abalone  -->
                     <ogc:PropertyIsEqualTo>
-                      <!-- Washington Pacific Herring Holding Areas (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{A88967C5-A13D-4B2C-A8DC-6F296C4E5E11}</ogc:Literal>
+                      <ogc:Literal>{4282A932-AA2A-4355-B51B-49C3436069D5}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Tribal Lands -->
                     <ogc:PropertyIsEqualTo>
-                       <!-- Washington Pacific Herring Spawning Areas (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{C6920E4F-FCF6-4CF9-B759-7492DE0C0CEA}</ogc:Literal>
+                      <ogc:Literal>{44566458-4BC4-45EC-9CB7-886B0A1CD92C}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Public Utility Districts -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Pacific SandLance Holding  Areas (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{744135E5-3BA1-477C-852A-9CFE2966242F}</ogc:Literal>
+                      <ogc:Literal>{2F76987E-C478-4287-BBB6-91C14EE032A2}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Impervious Surfaces 2006 -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Pacific SandLance Spawning  Areas (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{CD53B7B1-8233-4C6B-8D00-D419EDED71E9}</ogc:Literal>
+                      <ogc:Literal>{81C49F93-E10C-4904-8193-CE622DA6A8F7}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Port Districts -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Rock Sole Spawning  Areas (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{26831785-DDD4-490B-8F18-47EE5C6857D1}</ogc:Literal>
+                      <ogc:Literal>{EE6444D4-AF35-415D-87FE-F27D732E826C}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Ambient Water Quality Monitoring Locations -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Surf Smelt Spawning  Areas (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{881B2DEE-BD3A-47CE-B33B-3DC639231FA5}</ogc:Literal>
+                      <ogc:Literal>{5040C677-3AA8-4894-A2FA-EB9DF6F81F3C}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Ferry Terminals -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Oyster Beds (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{358C3206-4455-4F2E-A211-60A0F9916957}</ogc:Literal>
+                      <ogc:Literal>{4150631E-E0FF-4FD8-B9EC-F17949A0E5B1}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- Washington Shoreline Public Access Project -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Geoduck Locations (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{BED99236-D51D-443A-AFD6-6164D94A896C}</ogc:Literal>
+                      <ogc:Literal>{56826406-2038-4142-ADDF-285FAAFB6627}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- WA_RCO_Public_Lands_Inventory_2014 -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Sea Urchins (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{D5A23478-55D6-4FF8-B074-0374C6B1C648}</ogc:Literal>
+                      <ogc:Literal>{E6FC1830-A795-45DA-ADF1-BB0405347918}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                    <!-- GRP Strategies -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Abalone (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{9107C899-8BEB-45F0-AFB0-87163BFDFA78}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
+                      <ogc:Literal>{FE2FE826-873B-488D-B3DE-40B4574F1290}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>                    
+                     <!-- Ferry Routes of Washington State -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Marine Mammal Haulouts (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{856F5F1A-3EE4-4D7F-9134-55B03F2AB2F3}</ogc:Literal>
+                      <ogc:Literal>{168E48C2-2E53-45AD-9DE4-69C8CF84F189}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- Shellfish Recreational Beaches -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington City County Boundaries (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{1A1A2433-D5F6-4DC0-A749-40127719BFB2}</ogc:Literal>
+                      <ogc:Literal>{749FF43C-2682-425E-80DD-0A7087F34D35}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- Shellfish Commercial Harvest Sites -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Tribal Reservations (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{2990B35D-7EFF-4B07-A4E8-6867E3E06659}</ogc:Literal>
+                      <ogc:Literal>{7B9208952F-C5BD-406A-8E92-1A7FD8AF732D}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- Shellfish Commercial Growing Areas -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Park Districts (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{187CE5A6-716C-4912-A7A0-ED0C30B023C0}</ogc:Literal>
+                      <ogc:Literal>{6D037A89-D4ED-4363-83D6-8D1A998E57F1}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- Shellfish Water Quality Sampling Stations -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Military Zones (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{C5CBDA5B-1586-4A38-B4BD-7C4CBEF4D4EB}</ogc:Literal>
+                      <ogc:Literal>{59CB587B-D250-41BE-B417-5FC4C00AD546}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- Biotoxin Closure Zones -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Aquaculture Parcels (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{E7A40C02-48D4-4676-9777-CCE2BFC41A1B}</ogc:Literal>
+                      <ogc:Literal>{B707ECE9-39C0-4EC2-BB50-F290934941F4}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- Forage Fish Surveys -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Aquaculture Parcels (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{8A236ABD-AD5F-482E-96D0-33F58741B029}</ogc:Literal>
+                      <ogc:Literal>{BA1304C0-41DB-4BFB-A168-68453DCABF35}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington WDFW Lands (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{6C1A1432-179A-46EE-A296-8319135E9417}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
+                     <!-- Forage Fish Survey Pts -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Marine farms (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{F75C75A0-DFFC-4B80-9E0D-D6901D2A8762}</ogc:Literal>
+                      <ogc:Literal>{18B0BEA3-54B4-4771-B952-DB834CB60753}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
+                     <!-- National Hydrography Data Set (NHD) -->
                     <ogc:PropertyIsEqualTo>
-                    <!-- Washington Spill Origins (Map service) -->
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{DA51DF18-CB4E-4AB9-9B5B-E389E1148D3E}</ogc:Literal>
+                      <ogc:Literal>{8171B42D-2C96-413C-ABAD-2FB9619169F5}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Dams (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{7898CD0A-B435-41BE-8B1E-A8D8FBB60825}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Public Utility Districts (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{B8125FE1-5C8F-4F38-AE0D-9AC8CD81C958}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Impervious Structures (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{ADCC280D-8D7E-4985-9F3E-945F91EE8653}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Port Locations (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{85207800-4B2C-4315-AA90-0B1A58D6E51A}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Water Quality Monitoring Locations (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{38B7F747-3AD2-4ACD-B670-EA7F46799349}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Airports (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{9A4D3273-1A46-47AB-84A8-900498C4CB90}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Ferry Terminals (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{14B5E343-33DF-4A6A-8346-02A2344740BF}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Recreational Activities (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{15E330B1-DDEC-4B44-B26A-2F2ED69506E6}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Public Access (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{21C5EA2B-14CE-4617-AAB5-A25DD218DB65}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
-                    <ogc:PropertyIsEqualTo>
-                    <!-- Washington Public Utility District Names (Map service) -->
-                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{B8125FE1-5C8F-4F38-AE0D-9AC8CD81C958}</ogc:Literal>
-                    </ogc:PropertyIsEqualTo>
+                    
                     <!-- /Washington Geoportal -->
                     
                     <!-- National Ocean Service -->
