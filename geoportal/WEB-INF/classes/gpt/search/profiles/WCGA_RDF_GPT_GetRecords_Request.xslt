@@ -918,7 +918,7 @@ Template default
                     <!-- Washington State Levee Inventory  -->
                     <ogc:PropertyIsEqualTo>
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{061FBE36C-B943-4167-8144-E456CFE5EFBC}</ogc:Literal>
+                      <ogc:Literal>{61FBE36C-B943-4167-8144-E456CFE5EFBC}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <!-- Washington Littoral Drift -->
                     <ogc:PropertyIsEqualTo>
@@ -1033,7 +1033,7 @@ Template default
                      <!-- Shellfish Commercial Harvest Sites -->
                     <ogc:PropertyIsEqualTo>
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                      <ogc:Literal>{7B9208952F-C5BD-406A-8E92-1A7FD8AF732D}</ogc:Literal>
+                      <ogc:Literal>{9208952F-C5BD-406A-8E92-1A7FD8AF732D}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                      <!-- Shellfish Commercial Growing Areas -->
                     <ogc:PropertyIsEqualTo>
