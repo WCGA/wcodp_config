@@ -118,7 +118,7 @@
       <input type="textArea"/>
       <validation required="true"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString"/>
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:abstract/gco:CharacterString"/>
     </parameter>
     
     <!--spatial representation section: subset of identification section -->
