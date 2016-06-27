@@ -91,7 +91,7 @@
       <input type="text"/>
       <validation required="true"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString"/>
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:title/gco:CharacterString | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:title"/>
     </parameter>
     
     <parameter key="identification.publicationDate"> 
@@ -101,7 +101,7 @@
              defaultValue="#{EditMetadataController.now}"/>
       <validation required="true" valueType="date"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date | gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:DateTime"
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date | gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:DateTime | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date"
                update="gmd:MD_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date/gco:Date"/>
     </parameter>
     
@@ -118,7 +118,7 @@
       <input type="textArea"/>
       <validation required="true"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString"/>
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:abstract/gco:CharacterString | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:abstract/gco:CharacterString"/>
     </parameter>
     
     <!--spatial representation section: subset of identification section -->
@@ -162,7 +162,7 @@
     <parameter key="thumbnail.url" meaning="thumbnail.url">
       <label resourceKey="catalog.mdParam.thumbnail.url"/>
       <input type="text" maxlength="2048"/>
-      <validation required="true"/>
+      <validation required="false"/>
       <content useSelectForUpdate="true" deleteParentIfEmpty="true"
                select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:graphicOverview/gmd:MD_BrowseGraphic/gmd:fileName/gco:CharacterString"/>
     </parameter>
@@ -268,7 +268,7 @@
              hintResourceKey="catalog.general.inputLongitudeFormat"/>
       <validation required="true" valueType="double"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal"/> 
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude/gco:Decimal"/> 
     </parameter>
     
     <parameter key="envelope.south" meaning="envelope.south"> 
@@ -277,7 +277,7 @@
              hintResourceKey="catalog.general.inputLatitudeFormat"/>
       <validation required="true" valueType="double"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:southBoundLatitude/gco:Decimal"/>  
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:southBoundLatitude/gco:Decimal | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:southBoundLatitude/gco:Decimal"/>  
     </parameter>  
 
     <parameter key="envelope.east" meaning="envelope.east"> 
@@ -286,7 +286,7 @@
              hintResourceKey="catalog.general.inputLongitudeFormat"/>
       <validation required="true" valueType="double"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal"/> 
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude/gco:Decimal"/> 
     </parameter>
     
     <parameter key="envelope.north" meaning="envelope.north"> 
@@ -295,7 +295,7 @@
              hintResourceKey="catalog.general.inputLatitudeFormat"/>
       <validation required="true" valueType="double"/>
       <content useSelectForUpdate="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal"/> 
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude/gco:Decimal"/> 
     </parameter>
 
     <section key="envelope.map.container">
@@ -383,7 +383,7 @@
   </section>
    
 <!-- contact section, a subset of the identification section) -->
-  <section key="contact" open="false" obligation="optional" select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact">
+  <section key="contact" open="false" obligation="optional" select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty">
     <label resourceKey="catalog.mdParam.contact.caption"/>
         
 <!--point of contact:identification of, and means of communication with, person(s) and organization(s) associated with the resource(s)" -->
@@ -392,7 +392,7 @@
       <input type="text" defaultValue="#{EditMetadataController.userProfile['organization'].value}"/>
       <validation required="false"/>
       <content useSelectForUpdate="true" deleteParentIfEmpty="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString"/>
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:organisationName/gco:CharacterString"/>
     </parameter>
     
     <parameter key="contact.position">
@@ -400,7 +400,7 @@
       <input type="text"/>
       <validation required="false"/>
       <content useSelectForUpdate="true" deleteParentIfEmpty="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:positionName/gco:CharacterString"/>
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:positionName/gco:CharacterString | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:individualName/gco:CharacterString"/>
     </parameter>
 
     <parameter key="contact.address.address">
@@ -448,7 +448,7 @@
       <input type="text" defaultValue="#{EditMetadataController.userProfile['email'].value}"/>
       <validation required="false"/>
       <content useSelectForUpdate="true" deleteParentIfEmpty="true"
-               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString"/>
+               select="/gmi:MI_Metadata/gmd:identificationInfo/gmd:MD_DataIdentification/gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString | /gmi:MI_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/gmd:citation/gmd:CI_Citation/gmd:citedResponsibleParty/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress/gco:CharacterString"/>
     </parameter>
     
     <parameter key="contact.onlineResource" meaning="website.url">
