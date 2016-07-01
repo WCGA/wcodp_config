@@ -1267,6 +1267,27 @@ Template default
 
                     <!--/ OSU Active tectonics Lab -->
                   
+              <!-- NCCOS Geospatial Portal -->
+
+                    <!-- NCCOS Assessment: Predictive Mapping of Seabirds, Pinnipeds and Cetaceans off the Pacific Coast of Washington from 1995-07-21 to 2015-12-08 (NCEI Accession 0148762) -->
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{11F9F47F-876D-4D0F-82AA-5F3424AEEA4A}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <!-- NCCOS PredictiveMapping_Washington map service -->
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{466F4108-7C94-41CF-B95E-741CE5E66AE8}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                    <!-- Blue whale at-sea density off California -->
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{BAD007BA-8B30-4F21-9DFD-76E5DBE251DE}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+
+
+              <!--/ NCCOS Geospatial Portal -->
+                  
                     <!-- EPA Data Exchange -->
                     
                     <!-- Region 9 NPDES Outfalls 2012-->
