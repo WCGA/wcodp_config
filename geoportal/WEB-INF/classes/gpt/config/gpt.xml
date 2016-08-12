@@ -348,7 +348,7 @@
         <parameter key="publicationRequest.autoApprove" value="false"/>
         <parameter key="spatialRelevance.ranking.maxDoc" value="1000000"/>
         <parameter key="rssProviderUrl" value=""/>
-        <parameter key="reverseProxy.baseContextPath" value="http://wcga-vm01.sdsc.edu/geoportal"/>
+        <parameter key="reverseProxy.baseContextPath" value="http://207.141.116.172/geoportal"/>
         <parameter key="RestServlet.printXml.stripStyleSheets" value="true"/>
         <parameter key="Administration.viewMetadata.stripStyleSheets" value="true"/>
         <parameter key="httpClientRequest.connectionTimeout" value="2[MINUTE]"/>
