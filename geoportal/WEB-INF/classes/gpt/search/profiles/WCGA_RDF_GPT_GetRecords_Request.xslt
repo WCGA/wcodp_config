@@ -1272,19 +1272,23 @@ Template default
                     <!-- NCCOS Assessment: Predictive Mapping of Seabirds, Pinnipeds and Cetaceans off the Pacific Coast of Washington from 1995-07-21 to 2015-12-08 (NCEI Accession 0148762) -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                       <ogc:Literal>{11F9F47F-876D-4D0F-82AA-5F3424AEEA4A}</ogc:Literal>
+                       <ogc:Literal>{EAF97774-2DE6-4E26-B456-61D7227703DF}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-                    <!-- NCCOS PredictiveMapping_Washington map service -->
+                    <!-- NCCOS Predictive Mapping of Seabirds, Pinnipeds, and Cetaceans: Washington Map Service -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                       <ogc:Literal>{466F4108-7C94-41CF-B95E-741CE5E66AE8}</ogc:Literal>
+                       <ogc:Literal>{39BA4C02-7DB1-46C3-89CD-95C241C80C8C}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <!-- Blue whale at-sea density off California -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                        <ogc:Literal>{BAD007BA-8B30-4F21-9DFD-76E5DBE251DE}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
-
+                    <!-- NCCOS Assessment: Groundfish biodiversity hotspots off the Pacific Coast of Oregon from 1971-09-05 to 2010-09-20 (NCEI Accession 0156467) -->
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{B12F9B05-736C-49C4-B004-CEB10EA68F7F}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
 
               <!--/ NCCOS Geospatial Portal -->
                   
