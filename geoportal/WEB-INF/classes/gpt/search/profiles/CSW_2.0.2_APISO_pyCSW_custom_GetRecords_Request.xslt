@@ -42,6 +42,9 @@
 	<xsl:template match="/GetRecords/KeyWord" xmlns:ogc="http://www.opengis.net/ogc">
 	  
             <ogc:Or>
+
+ 			<!--DATA.gov records -->
+           	
 			<!--Ocean Biogeographic Information System (OBIS) USA Dataset Collection -->
 			<ogc:PropertyIsEqualTo>
 				<ogc:PropertyName>dc:identifier</ogc:PropertyName>
@@ -389,6 +392,31 @@
 			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
 				<ogc:Literal>ca723f87-6cd8-4909-97ac-ea84dc9b71be</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
+
+ 			<!--End DATA.gov records -->
+
+ 			<!-- NWFSC FRAM Data Warehouse records -->
+
+			<!-- Actual Station Design Dim -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>4c843b78-1e5d-4a6c-a234-196671774d11</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+
+			<!-- Station Design Dim -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>493c6c90-3dd7-416a-912b-b4ed65910073</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+
+			<!-- Target Station Design Dim -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>0b5e537e-b235-4bdf-9395-cc1b01195dbf</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+
+ 			<!--END NWFSC FRAM Data Warehouse records -->
+
 			</ogc:Or>
 
 	</xsl:template>
