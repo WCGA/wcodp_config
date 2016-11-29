@@ -393,6 +393,39 @@
 				<ogc:Literal>ca723f87-6cd8-4909-97ac-ea84dc9b71be</ogc:Literal>
 			</ogc:PropertyIsEqualTo>
 
+			<!-- FRAM records in Data.gov -->
+			<!-- Habitat Use Database - Groundfish Essential Fish Habitat (EFH) Habitat Use Database (HUD) -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>89244ba4-9c53-489f-a036-dc5aab906b69</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<!-- Acoustic data - Integrated acoustic and trawl survey of Pacific hake off the Pacific Coast -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>1c7396d8-ca7e-4685-b9da-c5650841c1e4</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<!-- Biological data - Integrated acoustic and trawl survey of Pacific hake off the Pacific Coast -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>471fe351-0613-4ed3-bf37-d631991f077e</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<!-- Oceanographic data - Integrated acoustic and trawl survey of Pacific hake off the Pacific Coast -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>ad7715c0-46cc-47d0-97f6-fffb68bd2047</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<!-- Southern California Hook and Line Survey - Annual So. CA Bight hook and line data collection/survey -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>b8cd08e1-fddc-46e3-9d7b-67debe6023b2</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+			<!-- West Coast Groundfish Bottom Trawl Survey Data - Annual West Coast time series groundfish trawl data collection survey -->
+			<ogc:PropertyIsEqualTo>
+			 	<ogc:PropertyName>dc:identifier</ogc:PropertyName>
+				<ogc:Literal>5568097b-a345-427f-988a-2b99c4132bc8</ogc:Literal>
+			</ogc:PropertyIsEqualTo>
+
+
  			<!--End DATA.gov records -->
 
  			<!-- NWFSC FRAM Data Warehouse records -->
