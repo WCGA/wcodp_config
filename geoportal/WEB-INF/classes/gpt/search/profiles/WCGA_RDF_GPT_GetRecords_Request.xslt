@@ -1277,7 +1277,7 @@ Template default
                     <!-- NCCOS Predictive Mapping of Seabirds, Pinnipeds, and Cetaceans: Washington Map Service -->
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
-                       <ogc:Literal>{39BA4C02-7DB1-46C3-89CD-95C241C80C8C}</ogc:Literal>
+                       <ogc:Literal>{DA8AC4A3-6791-4FE2-A81F-DE6065285708}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
                     <!-- Blue whale at-sea density off California -->
                     <ogc:PropertyIsEqualTo>
@@ -1288,6 +1288,11 @@ Template default
                     <ogc:PropertyIsEqualTo>
                        <ogc:PropertyName>dc:identifier</ogc:PropertyName>
                        <ogc:Literal>{B12F9B05-736C-49C4-B004-CEB10EA68F7F}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
+                   <!-- Web Service for NCCOS Oregon Groundfish Biodiversity Hotspot Predictions-->
+                    <ogc:PropertyIsEqualTo>
+                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                       <ogc:Literal>{F1FD0390-3C56-4C1F-93D6-6BF8173B24B3}</ogc:Literal>
                     </ogc:PropertyIsEqualTo>
 
               <!--/ NCCOS Geospatial Portal -->
