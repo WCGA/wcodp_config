@@ -910,6 +910,11 @@ Template default
                     <!-- /Oregon Spatial Data Library -->
 
                     <!-- Washington Geospatial Clearinghous -->
+                    <!-- Washington State Floating Kelp Inventory of the Strait of Juan de Fuca and Outer Coast -->
+                    <ogc:PropertyIsEqualTo>
+                      <ogc:PropertyName>dc:identifier</ogc:PropertyName>
+                      <ogc:Literal>{1D8B8AEB-20EC-47A1-BF75-C6B28A5E0FB3}</ogc:Literal>
+                    </ogc:PropertyIsEqualTo>
                     <!-- Coastal Washington Land Cover 2006 -->
                     <ogc:PropertyIsEqualTo>
                       <ogc:PropertyName>dc:identifier</ogc:PropertyName>
