@@ -5,7 +5,7 @@
         cswOutputSchema="http://www.isotc211.org/2005/gmd" 
         cswBriefXslt="gpt/metadata/iso/apiso-2-brief.xslt" 
         cswSummaryXslt="gpt/metadata/iso/apiso-2-summary.xslt"
-        xsdLocation="http://ngdc.noaa.gov/metadata/published/xsd/schema.xsd"> 
+        xsdLocation="https://ngdc.noaa.gov/metadata/published/xsd/schema.xsd"> 
   
 <!-- schema label -->
   <label resourceKey="catalog.mdParam.schema.iso19115-2.coregeog"/>
