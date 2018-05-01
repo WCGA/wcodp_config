@@ -16,7 +16,7 @@
 -->
 <gptConfig version="1.2.9">
 
-    <databaseReference name="gpt" jndiName="jdbc/gpt"/>
+    <databaseReference name="gpt" jndiName="jdbc/gpt129"/>
     
     <!-- Mail server configuration.
         - smtpHost: mail server SMTP host
@@ -74,7 +74,7 @@
     -->
       
     <lucene
-        indexLocation=""
+        indexLocation="/usr/local/etc/lucene129"
         writeLockTimeout="60000"
         useNativeFSLockFactory="true"
         analyzerClassName="org.apache.lucene.analysis.standard.StandardAnalyzer">
@@ -120,7 +120,7 @@
         - assertion.comment.maxLength: maximum characters allowed for one comment.  
     -->
     <parameter key="assertion.index.enabled" value="true"/>
-    <parameter key="assertion.index.location" value=""/>
+    <parameter key="assertion.index.location" value="/usr/local/etc/lucene129/assertion"/>
     <parameter key="assertion.index.allowNonLocalResourceIds" value="false"/>
     <parameter key="assertion.rating.enabled" value="true"/>
     <parameter key="assertion.comment.enabled" value="true"/>
@@ -395,13 +395,13 @@
         <parameter key="catalog.enableEditForAdministrator" value="false"/>
         <parameter key="catalog.enableDuplicate" value="true"/>
         <parameter key="catalog.admin.allowApplyToAll" value="true"/>
-        <parameter key="catalog.useCollections" value="false"/>
+        <parameter key="catalog.useCollections" value="true"/>
         <parameter key="database.isCaseSensitive" value="true"/>
         <parameter key="publicationRequest.autoApprove" value="false"/>
         <parameter key="publicationRequest.allowFileIdForUuid" value="false"/>
         <parameter key="spatialRelevance.ranking.maxDoc" value="1000000"/>
         <parameter key="rssProviderUrl" value=""/>
-        <parameter key="reverseProxy.baseContextPath" value=""/>
+        <parameter key="reverseProxy.baseContextPath" value="http://207.141.116.172/geoportal129"/>
         <parameter key="RestServlet.printXml.stripStyleSheets" value="true"/>
         <parameter key="Administration.viewMetadata.stripStyleSheets" value="true"/>
         <parameter key="httpClientRequest.connectionTimeout" value="2[MINUTE]"/>
@@ -534,16 +534,16 @@
         - ldapAdapter: configures geoportal to connect to LDAP user directory store. 
     -->
     <identity encKey="PtkESRI" realm="Geoportal">  
-        <!-- 
+        
         <simpleAdapter>
-            <account username="gptaccount" password="gpt.account" encrypted="false"/>
+            <account username="geoportal" password="WcgaGeo" encrypted="false"/>
             <roles>
                 <role key="gptRegisteredUser"/>
                 <role key="gptPublisher"/>
                 <role key="gptAdministrator"/>
             </roles>
         </simpleAdapter>
-        -->
+        
         
 				<!-- 
 					Identity adapter when using ArcGIS Online or Portal as the identity store.
@@ -564,7 +564,7 @@
           allUsersCanPublish="true"
         />
         -->
-      
+      <!--
         <ldapAdapter>
             <ldapConnectionProperties
                 providerURL="ldap://ldap_host_name:ldap_port"
@@ -592,14 +592,14 @@
                 supportsPasswordRecovery="true"/>
 
 		  
-		    <!-- optional parameters for user role management: 
+		     optional parameters for user role management: 
 				An alternate way to prevent users from specific groups is to set "forbidden" attribute to true. 
 		        - manage: Used to configure role to be managed on the user role management page.
 					If the value is true, the users having the role are managed on the user role management page. Default is true.
 				- forbidden: Used to configure role to prevent users with this role from logging in to geoportal
 					If the value is true, the users having the role will not be allowed to login.
 				- resKey: A resource key to the label displayed for the corresponding role on the user role management page.
-		    -->    
+		        
             <roles authenticatedUserRequiresRole="true">
                 <role
                     key="gptRegisteredUser"
@@ -661,16 +661,17 @@
                 memberSearchPattern="(&amp;(objectclass=groupOfUniqueNames)(uniquemember={0}))"
                 searchDIT="Groups_Node_DN">
      
-            <!-- 
+            
                 <metadataManagementGroup
                     name="Region 1"
                     groupDN="group_distinguished_name"/>
                 <metadataManagementGroup
                     name="Region 2"
                     groupDN="group_distinguished_name"/>
-            -->
+            
             </groups>
         </ldapAdapter>
+	-->
     </identity>
   
     <!-- Scheduled Background Threads -->
