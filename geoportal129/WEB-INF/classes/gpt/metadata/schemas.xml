@@ -20,9 +20,9 @@
   <schema fileName="gpt/metadata/esri/esri-iso-definition.xml"/>
     
   <schema fileName="gpt/metadata/dc/dc-definition.xml"/>
-  <!--  
+   
   <schema fileName="gpt/metadata/iso/nap/nap-iso-19115-definition.xml"/>
-  <schema fileName="gpt/metadata/iso/nap/nap-iso-19119-definition.xml"/> -->
+  <schema fileName="gpt/metadata/iso/nap/nap-iso-19119-definition.xml"/>
   
   <!-- UK GEMINI 2.1 
     GEMINI document interrogation rules are based upon
