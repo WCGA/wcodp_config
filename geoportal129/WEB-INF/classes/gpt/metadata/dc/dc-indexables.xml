@@ -42,6 +42,7 @@
   </property>   
     
   <property meaning="resource.url" xpath="/rdf:RDF/rdf:Description/dct:references"/>
+  <property meaning="esri.rest" xpath="/rdf:RDF/rdf:Description/dct:references[contains(.,'MapServer')]"/>
   <!-- <property meaning="website.url" xpath=""/> -->
   <!-- <property meaning="thumbnail.url" xpath=""/> -->
   <!-- <property meaning="thumbnail.binary" xpath=""/> -->

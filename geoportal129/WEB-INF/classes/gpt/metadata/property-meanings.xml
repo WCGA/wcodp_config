@@ -72,7 +72,168 @@
   <property-meaning name="resource.url" valueType="String" comparisonType="value">
     <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcIMS:Metadata:Server"/>
   </property-meaning>
+
+  <!-- Start WCODP added property meanings -->
+
+  <!-- WCODP ISO property meanings -->
+ 
+  <property-meaning name="csv" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.csv"/>
+  </property-meaning>
   
+  <property-meaning name="esri.rest" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:ArcGIS:MapServer"/>
+  </property-meaning>
+ 
+  <property-meaning name="ftp" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.ftp"/>
+  </property-meaning>
+ 
+  <property-meaning name="html" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.html"/>
+  </property-meaning>
+  
+  <property-meaning name="asp" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.asp"/>
+  </property-meaning>
+ 
+  <property-meaning name="img" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.img"/>
+  </property-meaning>
+ 
+  <property-meaning name="kml" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.kml"/>
+  </property-meaning>
+ 
+  <property-meaning name="kmz" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.kmz"/>
+  </property-meaning>
+ 
+  <property-meaning name="pdf" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.pdf"/>
+  </property-meaning>
+ 
+  <property-meaning name="shp" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.shp"/>
+  </property-meaning>
+ 
+  <property-meaning name="tar" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.tar"/>
+  </property-meaning>
+ 
+  <property-meaning name="tiff" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.tiff"/>
+  </property-meaning>
+ 
+  <property-meaning name="txt" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.txt"/>
+  </property-meaning>
+ 
+  <property-meaning name="xls" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.xls"/>
+  </property-meaning>
+ 
+  <property-meaning name="xlsx" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.xlsx"/>
+  </property-meaning>
+
+  <property-meaning name="wcs" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wcs"/>
+  </property-meaning>
+
+  <property-meaning name="wfs" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wfs"/>
+  </property-meaning>
+
+  <property-meaning name="wms" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.wms"/>
+  </property-meaning>
+
+  <property-meaning name="zip" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.zip"/>
+  </property-meaning>
+    
+  <property-meaning name="esri_rest" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.esri_rest"/>
+  </property-meaning>  
+  
+  <property-meaning name="opendap_thredds" valueType="String" comparisonType="value">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Gmd:URL.opendap_thredds"/>
+  </property-meaning>  
+
+
+ <!-- WCODP FGDC property meanings -->
+  
+  <property-meaning name="networkr_ftp" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:Networkr_ftp"/>
+  </property-meaning>
+  
+  <property-meaning name="networkr_zip" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:networkr_zip"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_wms" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_wms"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_ftp" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_ftp"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_html" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_html"/>
+  </property-meaning>
+  
+ <property-meaning name="onlink_asp" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_asp"/>
+  </property-meaning>
+      
+  <property-meaning name="onlink_img" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_img"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_kmz" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_kmz"/>
+  </property-meaning>
+    
+  <property-meaning name="onlink_pdf" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_pdf"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_shp" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_shp"/>
+  </property-meaning>
+    
+  <property-meaning name="onlink_kml" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_kml"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_zip" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_zip"/>
+  </property-meaning>
+
+  <property-meaning name="onlink_tar" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_tar"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_tiff" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_tiff"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_txt" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_txt"/>
+  </property-meaning>
+      
+  <property-meaning name="esri_wms" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:esri_wms"/>
+  </property-meaning>
+  
+  <property-meaning name="onlink_esri_rest" valueType="String" comparisonType="terms">
+    <dc name="dct:references" scheme="urn:x-esri:specification:ServiceType:onlink_esri_rest"/>
+  </property-meaning> 
+
+  <!-- End WCODP added property meanings -->
+
   <property-meaning name="resource.check.urls" valueType="String" comparisonType="terms">
   </property-meaning> 
  
@@ -183,6 +344,17 @@
         <meaning-names>contentType,dataTheme,sys.childlist,sys.parentlist</meaning-names>
         <meaning-names>dateModified,abstract</meaning-names>
         <meaning-names>resource.url,website.url,thumbnail.url,xml.url</meaning-names>
+        <meaning-names>esri.rest,ftp,html,img,kml</meaning-names>
+        <meaning-names>csv,kmz,pdf,shp,tar,tiff,txt</meaning-names>
+        <meaning-names>xls,xlsx,wcs,wfs,wms,zip</meaning-names>
+        <meaning-names>networkr_ftp,networkr_zip</meaning-names>
+        <meaning-names>onlink_wms,onlink_ftp</meaning-names>
+        <meaning-names>onlink_html,onlink_img</meaning-names>
+        <meaning-names>onlink_kmz,onlink_pdf</meaning-names>
+        <meaning-names>onlink_shp,onlink_kml</meaning-names>
+        <meaning-names>onlink_zip,onlink_tar</meaning-names>
+        <meaning-names>onlink_tiff,onlink_txt</meaning-names>
+        <meaning-names>onlink_esri_rest,esri_rest,esri_wms</meaning-names>
         <meaning-names>geometry,date,relation</meaning-names>
       </dc>
     </summary>
@@ -192,6 +364,17 @@
         <meaning-names>contentType,dataTheme,sys.childlist,sys.parentlist</meaning-names>
         <meaning-names>dateModified,abstract</meaning-names>
         <meaning-names>resource.url,website.url,thumbnail.url,xml.url</meaning-names>
+        <meaning-names>esri.rest,ftp,html,img,kml</meaning-names>
+        <meaning-names>csv,kmz,pdf,shp,tar,tiff,txt</meaning-names>
+        <meaning-names>xls,xlsx,wcs,wfs,wms,zip</meaning-names>
+        <meaning-names>networkr_ftp,networkr_zip</meaning-names>
+        <meaning-names>onlink_wms,onlink_ftp</meaning-names>
+        <meaning-names>onlink_html,onlink_img</meaning-names>
+        <meaning-names>onlink_kmz,onlink_pdf</meaning-names>
+        <meaning-names>onlink_shp,onlink_kml</meaning-names>
+        <meaning-names>onlink_zip,onlink_tar</meaning-names>
+        <meaning-names>onlink_tiff,onlink_txt</meaning-names>
+        <meaning-names>onlink_esri_rest,esri_rest,esri_wms</meaning-names>
         <meaning-names>geometry,date,relation</meaning-names>
         <meaning-names>sys.siteuuid,isPartOf</meaning-names>
       </dc>

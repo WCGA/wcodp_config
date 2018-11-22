@@ -40,6 +40,69 @@
   <property meaning="website.url" xpath="/metadata/idinfo/citation/citeinfo/onlink[2]"/>
   
   <property meaning="thumbnail.url" xpath="/metadata/idinfo/browse/browsen"/>
+
+  <!-- WCODP custom URL types -->
+
+  <property meaning="networkr_ftp" xpathType="NODESET"
+     xpath="/metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(.,'ftp')]"/>
+
+  <property meaning="networkr_zip" xpathType="NODESET"
+     xpath="/metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(.,'.zip')]"/>
+   
+  <property meaning="onlink_wms" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'wmsconnector')]"/>
+
+  <property meaning="onlink_ftp" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'ftp')]"/>
+
+  <property meaning="onlink_img" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.image')]"/>     
+
+  <property meaning="onlink_pdf" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.pdf')]"/>
+  <property meaning="onlink_pdf" xpathType="NODESET"
+     xpath="/metadata/eainfo/overview/eadetcit[contains(.,'.pdf')]"/>
+
+  <property meaning="onlink_kml" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.kml')]"/>
+
+  <property meaning="onlink_zip" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.zip')]"/>
+
+  <property meaning="onlink_tar" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.tar.gz')]"/>
+
+  <property meaning="esri_wms" xpathType="NODESET"
+     xpath="/metadata/Esri/Server[contains(.,'wmsconnector')]"/>
+
+  <property meaning="onlink_csv" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.csv')]"/>
+
+  <property meaning="onlink_xls" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.xls')]"/>
+
+  <property meaning="onlink_html" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.htm')]"/>     
+   
+  <property meaning="onlink_asp" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.asp')]"/>   
+   
+  <property meaning="onlink_kmz" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.kmz')]"/>
+
+  <property meaning="onlink_shp" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.shp')]"/>    
+
+  <property meaning="onlink_tiff" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.tiff')]"/>
+
+  <property meaning="onlink_txt" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'.txt')]"/>
+
+  <property meaning="onlink_esri_rest" xpathType="NODESET"
+     xpath="/metadata/idinfo/citation/citeinfo/onlink[contains(.,'MapServer')]"/>
+
+  <!-- end WCODP custom URL types -->
     
   <property meaning="contentType" xpath="/metadata/distinfo/resdesc"/>
   <property meaning="dataTheme" xpath="/metadata/idinfo/keywords/theme/themekey"/>
