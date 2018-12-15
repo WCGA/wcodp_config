@@ -18,19 +18,17 @@
 
   <!-- set the instance id once, don't change after that -->
   
-  <!--
-  <property name="gptdb2solr.instance.id" value="gptinstance.mygeoportal">
-    <property name="gpt.instance.url" value="http://mygeoportal:8080/geoportal"/>
-    <property name="gpt.include.collections" value="false"/>
-    <property name="solr.collection.url" value="http://test.esri.com:8983/solr/collection1/"/>
+  <property name="gptdb2solr.instance.id" value="gptinstance.mygeoportal129">
+    <property name="gpt.instance.url" value="http://127.0.0.1:8080/geoportal129"/>
+    <property name="gpt.include.collections" value="true"/>
+    <property name="solr.collection.url" value="http://127.0.0.1:8080/solr/collection1/"/>
     <property name="sql.database">
-      <property name="driver" value="jdbcDriverClassnameHere"/>
-      <property name="url" value="jdbcDatabaseUrlHere"/>
-      <property name="username" value="username"/>
-      <property name="password" value="password"/>
+      <property name="driver" value="org.postgresql.Driver"/>
+      <property name="url" value="jdbc:postgresql://127.0.0.1:5432/postgres"/>
+      <property name="username" value="geoportal"/>
+      <property name="password" value="WcgaGeo"/>
     </property>  
   </property>
-  -->
 	
 </property>
 
