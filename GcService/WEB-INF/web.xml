@@ -20,7 +20,7 @@
 	    <servlet-class>org.mitre.dsmiley.httpproxy.ProxyServlet</servlet-class>
 	    <init-param>
 	      <param-name>targetUri</param-name>
-	      <param-value>http://207.141.116.172/solr/collection1</param-value>
+	      <param-value>http://207.141.116.172/solr/collection129</param-value>
 	    </init-param>
   	</servlet>
   	<servlet-mapping>
