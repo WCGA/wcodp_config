@@ -18,7 +18,7 @@
 
   <!-- set the instance id once, don't change after that -->
   
-  <property name="gptdb2solr.instance.id" value="gptinstance.mygeoportal129">
+  <property name="gptdb2solr.instance.id" value="gptinstance.geoportal129">
     <property name="gpt.instance.url" value="http://127.0.0.1:8080/geoportal129"/>
     <property name="gpt.include.collections" value="true"/>
     <property name="solr.collection.url" value="http://127.0.0.1:8080/solr/collection129/"/>
