@@ -307,37 +307,31 @@
     </xsl:for-each>
     
     <xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'MAPSERV', 'mapserv'),'mapserver')]">
-			<field name="dataAccessType_ss">ArcGIS MapServer</field>
+			<field name="dataAccessType_ss">ESRI REST</field>
 			<field name="url.mapserver_ss">
 				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'MAPSERV', 'mapserv'),'mapserver')]"/>
 			</field>
 		</xsl:for-each>
 		<xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'WMS', 'wms'),'wms')]">
-			<field name="dataAccessType_ss">WMS</field>
+			<field name="dataAccessType_ss">OGC WMS</field>
 			<field name="url.wms_ss">
 				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'WMS', 'wms'),'wms')]"/>
 			</field>
 		</xsl:for-each>
 		<xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'WFS', 'wfs'),'wfs')]">
-			<field name="dataAccessType_ss">WFS</field>
+			<field name="dataAccessType_ss">OGC WFS</field>
 			<field name="url.wfs_ss">
 				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'WFS', 'wfs'),'wfs')]"/>
 			</field>
 		</xsl:for-each>
 		<xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'KML', 'kml'),'kml')] | //gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'KMZ', 'kmz'),'kmz')]">
-			<field name="dataAccessType_ss">KML</field>
+			<field name="dataAccessType_ss">OGC KML</field>
 			<field name="url.kml_ss">
 				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'KML', 'kml'),'kml')] | //gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'KMZ', 'kmz'),'kmz')]"/>
 			</field>
 		</xsl:for-each>
-		<xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'JSON', 'json'),'json')]">
-			<field name="dataAccessType_ss">JSON</field>
-			<field name="url.json_ss">
-				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'JSON', 'json'),'json')]"/>
-			</field>
-		</xsl:for-each>
 		<xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'SO', 'so'),'sos')]">
-			<field name="dataAccessType_ss">SOS</field>
+			<field name="dataAccessType_ss">OGC SOS</field>
 			<field name="url.sos_ss">
 				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'SO', 'so'),'sos')]"/>
 			</field>
@@ -348,7 +342,19 @@
 				<xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'THREDS', 'threds'),'thredds')]"/>
 			</field>
 		</xsl:for-each>
-		
+		<xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'.PDF', '.pdf'),'.pdf')]">
+      <field name="dataAccessType_ss">PDF</field>
+      <field name="url.pdf_ss">
+        <xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'.PDF', '.pdf'),'.pdf')]"/>
+      </field>
+    </xsl:for-each>
+    <xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceType/gco:LocalName[contains(translate(.,'.ZIP', '.zip'),'.zip')] | //gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'.ZIP', '.zip'),'.zip')]">
+      <field name="dataAccessType_ss">ZIP</field>
+      <field name="url.zip_ss">
+        <xsl:value-of select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:containsOperations/srv:SV_OperationMetadata/srv:connectPoint/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'.ZIP', '.zip'),'.zip')] | //gmd:MD_Metadata/gmd:distributionInfo/gmd:MD_Distribution/gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/gmd:CI_OnlineResource/gmd:linkage/gmd:URL[contains(translate(.,'.ZIP', '.zip'),'.zip')]"/>
+      </field>
+    </xsl:for-each>
+
     <xsl:for-each select="//gmd:identificationInfo/srv:SV_ServiceIdentification/srv:serviceTypeVersion/gco:CharacterString">
       <field name="apiso.ServiceTypeVersion_ss">
         <xsl:value-of select="current()"/>

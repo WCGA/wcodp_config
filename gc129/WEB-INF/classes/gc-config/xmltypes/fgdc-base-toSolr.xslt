@@ -99,42 +99,35 @@
   </xsl:template>
   <xsl:template name="writeServiceInfo">	
 <xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'MAPSERV', 'mapserv'),'mapserver')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'MAPSERV', 'mapserv'),'mapserver')]">
-		<field name="dataAccessType_ss">ArcGIS MapServer</field>
+		<field name="dataAccessType_ss">ESRI REST</field>
 			<field name="url.mapserver_ss">
 				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'MAPSERV', 'mapserv'),'mapserver')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'MAPSERV', 'mapserv'),'mapserver')]"/>
 			</field>
 		</xsl:for-each>
 
 <xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'WMS', 'wms'),'wms')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'WMS', 'wms'),'wms')]">
-		<field name="dataAccessType_ss">WMS</field>
+		<field name="dataAccessType_ss">OGC WMS</field>
 			<field name="url.wms_ss">
 				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'WMS', 'wms'),'wms')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'WMS', 'wms'),'wms')]"/>
 			</field>
 		</xsl:for-each>
 
 <xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'WFS', 'wfs'),'wfs')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'WFS', 'wfs'),'wfs')]">
-		<field name="dataAccessType_ss">WFS</field>
+		<field name="dataAccessType_ss">OGC WFS</field>
 			<field name="url.wfs_ss">
 				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'WFS', 'wfs'),'wfs')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'WFS', 'wfs'),'wfs')]"/>
 			</field>
 		</xsl:for-each>
 		
 <xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'KML', 'kml'),'kml')] | /metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'KMZ', 'kmz'),'kmz')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'KML', 'kml'),'kml')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'KMZ', 'kmz'),'kmz')]">
-		<field name="dataAccessType_ss">KML</field>
+		<field name="dataAccessType_ss">OGC KML</field>
 			<field name="url.kml_ss">
 				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'KML', 'kml'),'kml')] | /metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'KMZ', 'kmz'),'kmz')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'KML', 'kml'),'kml')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'KMZ', 'kmz'),'kmz')]"/>
 			</field>
 		</xsl:for-each>
-
-<xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'JSON', 'json'),'json')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'JSON', 'json'),'json')]">
-		<field name="dataAccessType_ss">JSON</field>
-			<field name="url.json_ss">
-				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'JSON', 'json'),'json')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'JSON', 'json'),'json')]"/>
-			</field>
-		</xsl:for-each>
 	
 		<xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'SO', 'so'),'sos')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'SO', 'so'),'sos')]">
-		<field name="dataAccessType_ss">SOS</field>
+		<field name="dataAccessType_ss">OGC SOS</field>
 			<field name="url.sos_ss">
 				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'SO', 'so'),'sos')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'SO', 'so'),'sos')]"/>
 			</field>
@@ -145,5 +138,17 @@
 				<xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'THREDS', 'threds'),'thredds')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'THREDS', 'threds'),'thredds')]"/>
 			</field>
 		</xsl:for-each>
+      <xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'.PDF', '.pdf'),'.pdf')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'.PDF', '.pdf'),'.pdf')]">
+    <field name="dataAccessType_ss">PDF</field>
+      <field name="url.pdf_ss">
+        <xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'.PDF', '.pdf'),'.pdf')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'.PDF', '.pdf'),'.pdf')]"/>
+      </field>
+    </xsl:for-each> 
+  <xsl:for-each select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'.ZIP', '.zip'),'.zip')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'.ZIP', '.zip'),'.zip')]">
+    <field name="dataAccessType_ss">ZIP</field>
+      <field name="url.zip_ss">
+        <xsl:value-of select="/metadata/idinfo/citation/citeinfo/onlink[contains(translate(.,'.ZIP', '.zip'),'.zip')] | /metadata/distinfo/stdorder/digform/digtopt/onlinopt/computer/networka/networkr[contains(translate(.,'.ZIP', '.zip'),'.zip')]"/>
+      </field>
+    </xsl:for-each> 
 	</xsl:template>
 </xsl:stylesheet>
