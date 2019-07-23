@@ -98,13 +98,14 @@ define({
       "sys.src.collections_txt": "Collections",
       "sys.src.collections_ss": "Collections (values)",
       "dataAccessType_ss": "Service Type",
-      "url.mapserver_ss": "ArcGIS MapServer",
-      "url.wms_ss": "WMS",
-      "url.wfs_ss": "WFS",
-      "url.kml_ss": "KML/KMZ",
-      "url.json_ss": "JSON",
-      "url.sos_ss": "SOS",
+      "url.mapserver_ss": "ESRI REST",
+      "url.wms_ss": "OGC WMS",
+      "url.wfs_ss": "OGC WFS",
+      "url.kml_ss": "OGC KML",
+      "url.sos_ss": "OGC SOS",
       "url.thredds_ss": "THREDDS",
+	  "url.pdf_ss": "PDF",
+	  "url.zip_ss": "ZIP",
       "sys.src.site.name_s": "Site"
     }
     
