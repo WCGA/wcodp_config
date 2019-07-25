@@ -396,7 +396,7 @@
 	 <parameter key="dataQualityInfo.lineage">
       <label resourceKey="catalog.mdParam.dataQualityInfo.lineage"/>
       <input type="textArea"/>
-      <validation required="true"/>
+      <validation required="false"/>
       <content useSelectForUpdate="true" 
                select="/gmd:MD_Metadata/gmd:dataQualityInfo/gmd:DQ_DataQuality/gmd:lineage/gmd:LI_Lineage/gmd:statement/gco:CharacterString"/>
     </parameter>   
