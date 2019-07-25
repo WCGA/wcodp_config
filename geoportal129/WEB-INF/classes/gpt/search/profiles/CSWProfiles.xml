@@ -43,7 +43,34 @@
         <SupportContentTypeQuery>True</SupportContentTypeQuery> 
         <SupportSpatialBoundary>True</SupportSpatialBoundary> 
      </Profile>
-     
+
+    <!--  OGCCORE ESRI GPT for WCODP (WCGA RDF) --> 
+    <Profile>
+        <ID>urn:ogc:CSW:2.0.2:HTTP:OGCCORE:WCGA_RDF:GPT</ID> 
+        <Name>WCGA RDF ESRI Geoportal (GPT)</Name> 
+        <CswNamespace>http://www.opengis.net/cat/csw/2.0.2</CswNamespace> 
+        <Description /> 
+       <GetRecords>
+         <XSLTransformations>
+          <Request expectedGptXmlOutput="FULL_NATIVE_GPTXML">
+            WCGA_RDF_GPT_GetRecords_Request.xslt
+          </Request> 
+          <Response>WCGA_RDF_GPT_GetRecords_Response.xslt</Response> 
+          </XSLTransformations>
+        </GetRecords>
+       <GetRecordByID>
+         <RequestKVPs>
+         <![CDATA[service=CSW&request=GetRecordById&version=2.0.2&ElementSetName=full]]> 
+          </RequestKVPs>
+         <XSLTransformations>
+          <Response>WCGA_RDF_GPT_GetRecordByID_Response.xslt</Response> 
+          </XSLTransformations>
+        </GetRecordByID>
+        <SupportSpatialQuery>True</SupportSpatialQuery> 
+        <SupportContentTypeQuery>True</SupportContentTypeQuery> 
+        <SupportSpatialBoundary>True</SupportSpatialBoundary> 
+     </Profile>     
+
     <!--  OGCISO ESRI GPT Version 10--> 
     <Profile>
         <ID>urn:ogc:CSW:2.0.2:HTTP:OGCISO:ESRI:GPT</ID> 
@@ -401,7 +428,31 @@
                 <SupportContentTypeQuery>False</SupportContentTypeQuery>
                 <SupportSpatialBoundary>True</SupportSpatialBoundary>    
        </Profile>
-	
+    
+        <!-- WCODP (WCGA RDF) Geonetwork APISO -->
+               <!-- APISO 2.0.2 GeoNetwork -->
+        <Profile>
+                <ID>urn:ogc:CSW:2.0.2:HTTP:APISO:WCGA_RDF:GeoNetwork</ID>
+                <Name>WCGA RDF GeoNetwork APISO</Name>
+                <Description></Description>
+                        <CswNamespace>http://www.opengis.net/cat/csw/2.0.2</CswNamespace>
+                <GetRecords>
+                    <XSLTransformations>
+                        <Request>WCGA_RDF_GeoNetwork_GetRecords_Request.xslt</Request>
+                        <Response>WCGA_RDF_GeoNetwork_GetRecords_Response.xslt</Response>
+                    </XSLTransformations>
+                </GetRecords>
+                <GetRecordByID>
+                    <RequestKVPs><![CDATA[service=CSW&request=GetRecordById&version=2.0.2&ElementSetName=full&OutputSchema=csw:IsoRecord]]></RequestKVPs>
+                <XSLTransformations>
+                    <Response>WCGA_RDF_GeoNetwork_GetRecordByID_Response.xslt</Response>
+                </XSLTransformations>
+                </GetRecordByID>
+                <SupportSpatialQuery>True</SupportSpatialQuery>
+                <SupportContentTypeQuery>False</SupportContentTypeQuery>
+                <SupportSpatialBoundary>True</SupportSpatialBoundary>
+       </Profile>
+    	
 				<!-- SRU CSW 2.0.2 Gateway to Z39.50 -->
         <Profile>
         	<ID>urn:ogc:CSW:2.0.2:HTTP:OGCCORE:SRU</ID>
@@ -550,5 +601,28 @@
 		<SupportContentTypeQuery>False</SupportContentTypeQuery>
 		<SupportSpatialBoundary>True</SupportSpatialBoundary>
 	</Profile>
+      
+        <!-- WCODP Data.gov profile of pycsw by dc:identifier-->
+  <Profile>
+        <ID>urn:ogc:CSW:2.0.2:HTTP:APISO:PYCSW:CUSTOM</ID>
+        <Name>pycsw - harvest by dc:identifiers</Name>
+        <CswNamespace>http://www.opengis.net/cat/csw/2.0.2</CswNamespace>
+        <Description/>
+        <GetRecords>
+            <XSLTransformations>
+                <Request>CSW_2.0.2_APISO_pyCSW_custom_GetRecords_Request.xslt</Request>
+                <Response>CSW_2.0.2_APISO_pyCSW_custom_GetRecords_Response.xslt</Response>
+            </XSLTransformations>
+        </GetRecords>
+        <GetRecordByID>
+            <RequestKVPs><![CDATA[service=CSW&request=GetRecordById&version=2.0.2&ElementSetName=full&outputschema=http%3A%2F%2Fwww.isotc211.org%2F2005%2Fgmd]]></RequestKVPs>
+            <XSLTransformations>
+                <Response>CSW_2.0.2_APISO_pyCSW_custom_GetRecordByID_Response.xslt</Response>
+            </XSLTransformations>
+        </GetRecordByID>
+        <SupportSpatialQuery>True</SupportSpatialQuery>
+        <SupportContentTypeQuery>False</SupportContentTypeQuery>
+        <SupportSpatialBoundary>True</SupportSpatialBoundary>
+    </Profile>
 
 </CSWProfiles>
